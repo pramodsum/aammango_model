@@ -10,7 +10,7 @@
 ===============     Statistical Language Modeling Toolkit     ===============
 =============================================================================
 This is a 3-gram language model, based on a vocabulary of 86 words,
-  which begins "</S>", "<S>", "AAT"...
+  which begins "</s>", "<s>", "aat"...
 This is a CLOSED-vocabulary model
   (OOVs eliminated from training data and are forbidden in test data)
 Good-Turing discounting was applied.
@@ -53,513 +53,513 @@ ngram 2=168
 ngram 3=250
 
 \1-grams:
--0.4789 </S>	-1.7516
--0.4737 <S>	-2.0527
--2.4031 AAT	-0.3019
--2.4031 ACHAAR	-0.3019
--2.4031 ADAI	-0.3019
--2.4031 ALOO	-0.3019
--2.4031 AVIAL	-0.3019
--2.4031 BADAM	-0.3019
--2.4031 BAGARA	-0.3019
--2.4031 BAINGAN	-0.3019
--2.4031 BARTHA	-0.3019
--2.4031 BATURA	-0.3019
--2.4031 BHINDI	-0.3019
--2.4031 BIRYANI	-0.3019
--2.4031 BISIBELEBAATH	-0.3019
--2.4031 BONDA	-0.3019
--2.4031 BOTI	-0.3019
--2.4031 CHAAR	-0.3019
--2.4031 CHANNA	-0.3019
--2.4031 CHE	-0.3019
--2.4031 CHETTINAND	-0.3019
--2.4031 CHOLE	-0.3019
--2.4031 DAHI	-0.3019
--2.4031 DAL	-0.3019
--2.4031 DO	-0.3019
--2.4031 DOPYAZ	-0.3019
--2.4031 DOSA	-0.3019
--2.4031 DUS	-0.3019
--2.4031 EK	-0.3019
--2.4031 GAJAR	-0.3019
--2.4031 GOBI	-0.3019
--2.4031 GOSHT	-0.3019
--2.4031 GULABJAMUN	-0.3019
--2.4031 HALWA	-0.3019
--2.4031 IDLI	-0.3019
--2.4031 JALFREZI	-0.3019
--2.4031 KAAJU	-0.3019
--2.4031 KADAI	-0.3019
--2.4031 KEEMA	-0.3019
--2.4031 KHEER	-0.3019
--2.4031 KOFTA	-0.3019
--2.4031 KULCHA	-0.3019
--2.4031 KULFI	-0.3019
--2.4031 KURMA	-0.3019
--2.4031 LACHCHA	-0.3019
--2.4031 LASSI	-0.3019
--2.4031 MAKHANI	-0.3019
--2.4031 MALAI	-0.3019
--2.4031 MANCHURIAN	-0.3019
--2.4031 MATAR	-0.3019
--2.4031 MURG	-0.3019
--2.4031 NAAN	-0.3019
--2.4031 NAU	-0.3019
--2.4031 NAVRATAN	-0.3019
--2.4031 PAANCH	-0.3019
--2.4031 PAKORA	-0.3019
--2.4031 PALAK	-0.3019
--2.4031 PAPAD	-0.3019
--2.4031 PARATHA	-0.3019
--2.4031 PASANDA	-0.3019
--2.4031 PAYASAM	-0.3019
--2.4031 POORI	-0.3019
--2.4031 PUDINA	-0.3019
--2.4031 PULAV	-0.3019
--2.4031 RAITA	-0.3019
--2.4031 RASAM	-0.3019
--2.4031 RASMALAI	-0.3019
--2.4031 RAVA	-0.3019
--2.4031 ROTI	-0.3019
--2.4031 SAAG	-0.3019
--2.4031 SAATH	-0.3019
--2.4031 SAMBAR	-0.3019
--2.4031 SAMOSA	-0.3019
--2.4031 SEEKH	-0.3019
--2.4031 SHAHI	-0.3019
--2.4031 TADKA	-0.3019
--2.4031 TANDOOR	-0.3019
--2.4031 TANGRI	0.0000
--2.4031 THEEN	-0.3019
--2.4031 TIKKA	-0.3019
--2.4031 UPMA	-0.3019
--2.4031 UTHAPPAM	-0.3019
--2.4031 VADA	-0.3019
--2.4031 VANGIBAATH	-0.3019
--2.4031 VENPONGAL	-0.3019
--2.4031 VINDALOO	-0.3019
+-0.4789 </s>	-1.7516
+-0.4737 <s>	-2.0527
+-2.4031 aat	-0.3019
+-2.4031 achaar	-0.3019
+-2.4031 adai	-0.3019
+-2.4031 aloo	-0.3019
+-2.4031 avial	-0.3019
+-2.4031 badam	-0.3019
+-2.4031 bagara	-0.3019
+-2.4031 baingan	-0.3019
+-2.4031 bartha	-0.3019
+-2.4031 batura	-0.3019
+-2.4031 bhindi	-0.3019
+-2.4031 biryani	-0.3019
+-2.4031 bisibelebaath	-0.3019
+-2.4031 bonda	-0.3019
+-2.4031 boti	-0.3019
+-2.4031 chaar	-0.3019
+-2.4031 channa	-0.3019
+-2.4031 che	-0.3019
+-2.4031 chettinand	-0.3019
+-2.4031 chole	-0.3019
+-2.4031 dahi	-0.3019
+-2.4031 dal	-0.3019
+-2.4031 do	-0.3019
+-2.4031 dopyaz	-0.3019
+-2.4031 dosa	-0.3019
+-2.4031 dus	-0.3019
+-2.4031 ek	-0.3019
+-2.4031 gajar	-0.3019
+-2.4031 gobi	-0.3019
+-2.4031 gosht	-0.3019
+-2.4031 gulabjamun	-0.3019
+-2.4031 halwa	-0.3019
+-2.4031 idli	-0.3019
+-2.4031 jalfrezi	-0.3019
+-2.4031 kaaju	-0.3019
+-2.4031 kadai	-0.3019
+-2.4031 keema	-0.3019
+-2.4031 kheer	-0.3019
+-2.4031 kofta	-0.3019
+-2.4031 kulcha	-0.3019
+-2.4031 kulfi	-0.3019
+-2.4031 kurma	-0.3019
+-2.4031 lachcha	-0.3019
+-2.4031 lassi	-0.3019
+-2.4031 makhani	-0.3019
+-2.4031 malai	-0.3019
+-2.4031 manchurian	-0.3019
+-2.4031 matar	-0.3019
+-2.4031 murg	-0.3019
+-2.4031 naan	-0.3019
+-2.4031 nau	-0.3019
+-2.4031 navratan	-0.3019
+-2.4031 paanch	-0.3019
+-2.4031 pakora	-0.3019
+-2.4031 palak	-0.3019
+-2.4031 papad	-0.3019
+-2.4031 paratha	-0.3019
+-2.4031 pasanda	-0.3019
+-2.4031 payasam	-0.3019
+-2.4031 poori	-0.3019
+-2.4031 pudina	-0.3019
+-2.4031 pulav	-0.3019
+-2.4031 raita	-0.3019
+-2.4031 rasam	-0.3019
+-2.4031 rasmalai	-0.3019
+-2.4031 rava	-0.3019
+-2.4031 roti	-0.3019
+-2.4031 saag	-0.3019
+-2.4031 saath	-0.3019
+-2.4031 sambar	-0.3019
+-2.4031 samosa	-0.3019
+-2.4031 seekh	-0.3019
+-2.4031 shahi	-0.3019
+-2.4031 tadka	-0.3019
+-2.4031 tandoor	-0.3019
+-2.4031 tangri	0.0000
+-2.4031 theen	-0.3019
+-2.4031 tikka	-0.3019
+-2.4031 upma	-0.3019
+-2.4031 uthappam	-0.3019
+-2.4031 vada	-0.3019
+-2.4031 vangibaath	-0.3019
+-2.4031 venpongal	-0.3019
+-2.4031 vindaloo	-0.3019
 
 \2-grams:
--0.0051 </S> <S> -0.1735
--1.9269 <S> AAT 0.1761
--1.9269 <S> ACHAAR 0.1761
--1.9269 <S> ADAI 0.1761
--1.9269 <S> ALOO 0.1761
--1.9269 <S> AVIAL 0.1761
--1.9269 <S> BADAM 0.1761
--1.9269 <S> BAGARA 0.1761
--1.9269 <S> BAINGAN 0.1761
--1.9269 <S> BARTHA 0.1761
--1.9269 <S> BATURA 0.1761
--1.9269 <S> BHINDI 0.1761
--1.9269 <S> BIRYANI 0.1761
--1.9269 <S> BISIBELEBAATH 0.1761
--1.9269 <S> BONDA 0.1761
--1.9269 <S> BOTI 0.1761
--1.9269 <S> CHAAR 0.1761
--1.9269 <S> CHANNA 0.1761
--1.9269 <S> CHE 0.1761
--1.9269 <S> CHETTINAND 0.1761
--1.9269 <S> CHOLE 0.1761
--1.9269 <S> DAHI 0.1761
--1.9269 <S> DAL 0.1761
--1.9269 <S> DO 0.1761
--1.9269 <S> DOPYAZ 0.1761
--1.9269 <S> DOSA 0.1761
--1.9269 <S> DUS 0.1761
--1.9269 <S> EK 0.1761
--1.9269 <S> GAJAR 0.1761
--1.9269 <S> GOBI 0.1761
--1.9269 <S> GOSHT 0.1761
--1.9269 <S> GULABJAMUN 0.1761
--1.9269 <S> HALWA 0.1761
--1.9269 <S> IDLI 0.1761
--1.9269 <S> JALFREZI 0.1761
--1.9269 <S> KAAJU 0.1761
--1.9269 <S> KADAI 0.1761
--1.9269 <S> KEEMA 0.1761
--1.9269 <S> KHEER 0.1761
--1.9269 <S> KOFTA 0.1761
--1.9269 <S> KULCHA 0.1761
--1.9269 <S> KULFI 0.1761
--1.9269 <S> KURMA 0.1761
--1.9269 <S> LACHCHA 0.1761
--1.9269 <S> LASSI 0.1761
--1.9269 <S> MAKHANI 0.1761
--1.9269 <S> MALAI 0.1761
--1.9269 <S> MANCHURIAN 0.1761
--1.9269 <S> MATAR 0.1761
--1.9269 <S> MURG 0.1761
--1.9269 <S> NAAN 0.1761
--1.9269 <S> NAU 0.1761
--1.9269 <S> NAVRATAN 0.1761
--1.9269 <S> PAANCH 0.1761
--1.9269 <S> PAKORA 0.1761
--1.9269 <S> PALAK 0.1761
--1.9269 <S> PAPAD 0.1761
--1.9269 <S> PARATHA 0.1761
--1.9269 <S> PASANDA 0.1761
--1.9269 <S> PAYASAM 0.1761
--1.9269 <S> POORI 0.1761
--1.9269 <S> PUDINA 0.1761
--1.9269 <S> PULAV 0.1761
--1.9269 <S> RAITA 0.1761
--1.9269 <S> RASAM 0.1761
--1.9269 <S> RASMALAI 0.1761
--1.9269 <S> RAVA 0.1761
--1.9269 <S> ROTI 0.1761
--1.9269 <S> SAAG 0.1761
--1.9269 <S> SAATH 0.1761
--1.9269 <S> SAMBAR 0.1761
--1.9269 <S> SAMOSA 0.1761
--1.9269 <S> SEEKH 0.1761
--1.9269 <S> SHAHI 0.1761
--1.9269 <S> TADKA 0.1761
--1.9269 <S> TANDOOR 0.1761
--1.9269 <S> TANGRI -0.1258
--1.9269 <S> THEEN 0.1761
--1.9269 <S> TIKKA 0.1761
--1.9269 <S> UPMA 0.1761
--1.9269 <S> UTHAPPAM 0.1761
--1.9269 <S> VADA 0.1761
--1.9269 <S> VANGIBAATH 0.1761
--1.9269 <S> VENPONGAL 0.1761
--1.9269 <S> VINDALOO 0.1761
--0.1761 AAT </S> 1.6284
--0.1761 ACHAAR </S> 1.6284
--0.1761 ADAI </S> 1.6284
--0.1761 ALOO </S> 1.6284
--0.1761 AVIAL </S> 1.6284
--0.1761 BADAM </S> 1.6284
--0.1761 BAGARA </S> 1.6284
--0.1761 BAINGAN </S> 1.6284
--0.1761 BARTHA </S> 1.6284
--0.1761 BATURA </S> 1.6284
--0.1761 BHINDI </S> 1.6284
--0.1761 BIRYANI </S> 1.6284
--0.1761 BISIBELEBAATH </S> 1.6284
--0.1761 BONDA </S> 1.6284
--0.1761 BOTI </S> 1.6284
--0.1761 CHAAR </S> 1.6284
--0.1761 CHANNA </S> 1.6284
--0.1761 CHE </S> 1.6284
--0.1761 CHETTINAND </S> 1.6284
--0.1761 CHOLE </S> 1.6284
--0.1761 DAHI </S> 1.6284
--0.1761 DAL </S> 1.6284
--0.1761 DO </S> 1.6284
--0.1761 DOPYAZ </S> 1.6284
--0.1761 DOSA </S> 1.6284
--0.1761 DUS </S> 1.6284
--0.1761 EK </S> 1.6284
--0.1761 GAJAR </S> 1.6284
--0.1761 GOBI </S> 1.6284
--0.1761 GOSHT </S> 1.6284
--0.1761 GULABJAMUN </S> 1.6284
--0.1761 HALWA </S> 1.6284
--0.1761 IDLI </S> 1.6284
--0.1761 JALFREZI </S> 1.6284
--0.1761 KAAJU </S> 1.6284
--0.1761 KADAI </S> 1.6284
--0.1761 KEEMA </S> 1.6284
--0.1761 KHEER </S> 1.6284
--0.1761 KOFTA </S> 1.6284
--0.1761 KULCHA </S> 1.6284
--0.1761 KULFI </S> 1.6284
--0.1761 KURMA </S> 1.6284
--0.1761 LACHCHA </S> 1.6284
--0.1761 LASSI </S> 1.6284
--0.1761 MAKHANI </S> 1.6284
--0.1761 MALAI </S> 1.6284
--0.1761 MANCHURIAN </S> 1.6284
--0.1761 MATAR </S> 1.6284
--0.1761 MURG </S> 1.6284
--0.1761 NAAN </S> 1.6284
--0.1761 NAU </S> 1.6284
--0.1761 NAVRATAN </S> 1.6284
--0.1761 PAANCH </S> 1.6284
--0.1761 PAKORA </S> 1.6284
--0.1761 PALAK </S> 1.6284
--0.1761 PAPAD </S> 1.6284
--0.1761 PARATHA </S> 1.6284
--0.1761 PASANDA </S> 1.6284
--0.1761 PAYASAM </S> 1.6284
--0.1761 POORI </S> 1.6284
--0.1761 PUDINA </S> 1.6284
--0.1761 PULAV </S> 1.6284
--0.1761 RAITA </S> 1.6284
--0.1761 RASAM </S> 1.6284
--0.1761 RASMALAI </S> 1.6284
--0.1761 RAVA </S> 1.6284
--0.1761 ROTI </S> 1.6284
--0.1761 SAAG </S> 1.6284
--0.1761 SAATH </S> 1.6284
--0.1761 SAMBAR </S> 1.6284
--0.1761 SAMOSA </S> 1.6284
--0.1761 SEEKH </S> 1.6284
--0.1761 SHAHI </S> 1.6284
--0.1761 TADKA </S> 1.6284
--0.1761 TANDOOR </S> 1.6284
--0.1761 THEEN </S> 1.6284
--0.1761 TIKKA </S> 1.6284
--0.1761 UPMA </S> 1.6284
--0.1761 UTHAPPAM </S> 1.6284
--0.1761 VADA </S> 1.6284
--0.1761 VANGIBAATH </S> 1.6284
--0.1761 VENPONGAL </S> 1.6284
--0.1761 VINDALOO </S> 1.6284
+-0.0051 </s> <s> -0.1735
+-1.9269 <s> aat 0.1761
+-1.9269 <s> achaar 0.1761
+-1.9269 <s> adai 0.1761
+-1.9269 <s> aloo 0.1761
+-1.9269 <s> avial 0.1761
+-1.9269 <s> badam 0.1761
+-1.9269 <s> bagara 0.1761
+-1.9269 <s> baingan 0.1761
+-1.9269 <s> bartha 0.1761
+-1.9269 <s> batura 0.1761
+-1.9269 <s> bhindi 0.1761
+-1.9269 <s> biryani 0.1761
+-1.9269 <s> bisibelebaath 0.1761
+-1.9269 <s> bonda 0.1761
+-1.9269 <s> boti 0.1761
+-1.9269 <s> chaar 0.1761
+-1.9269 <s> channa 0.1761
+-1.9269 <s> che 0.1761
+-1.9269 <s> chettinand 0.1761
+-1.9269 <s> chole 0.1761
+-1.9269 <s> dahi 0.1761
+-1.9269 <s> dal 0.1761
+-1.9269 <s> do 0.1761
+-1.9269 <s> dopyaz 0.1761
+-1.9269 <s> dosa 0.1761
+-1.9269 <s> dus 0.1761
+-1.9269 <s> ek 0.1761
+-1.9269 <s> gajar 0.1761
+-1.9269 <s> gobi 0.1761
+-1.9269 <s> gosht 0.1761
+-1.9269 <s> gulabjamun 0.1761
+-1.9269 <s> halwa 0.1761
+-1.9269 <s> idli 0.1761
+-1.9269 <s> jalfrezi 0.1761
+-1.9269 <s> kaaju 0.1761
+-1.9269 <s> kadai 0.1761
+-1.9269 <s> keema 0.1761
+-1.9269 <s> kheer 0.1761
+-1.9269 <s> kofta 0.1761
+-1.9269 <s> kulcha 0.1761
+-1.9269 <s> kulfi 0.1761
+-1.9269 <s> kurma 0.1761
+-1.9269 <s> lachcha 0.1761
+-1.9269 <s> lassi 0.1761
+-1.9269 <s> makhani 0.1761
+-1.9269 <s> malai 0.1761
+-1.9269 <s> manchurian 0.1761
+-1.9269 <s> matar 0.1761
+-1.9269 <s> murg 0.1761
+-1.9269 <s> naan 0.1761
+-1.9269 <s> nau 0.1761
+-1.9269 <s> navratan 0.1761
+-1.9269 <s> paanch 0.1761
+-1.9269 <s> pakora 0.1761
+-1.9269 <s> palak 0.1761
+-1.9269 <s> papad 0.1761
+-1.9269 <s> paratha 0.1761
+-1.9269 <s> pasanda 0.1761
+-1.9269 <s> payasam 0.1761
+-1.9269 <s> poori 0.1761
+-1.9269 <s> pudina 0.1761
+-1.9269 <s> pulav 0.1761
+-1.9269 <s> raita 0.1761
+-1.9269 <s> rasam 0.1761
+-1.9269 <s> rasmalai 0.1761
+-1.9269 <s> rava 0.1761
+-1.9269 <s> roti 0.1761
+-1.9269 <s> saag 0.1761
+-1.9269 <s> saath 0.1761
+-1.9269 <s> sambar 0.1761
+-1.9269 <s> samosa 0.1761
+-1.9269 <s> seekh 0.1761
+-1.9269 <s> shahi 0.1761
+-1.9269 <s> tadka 0.1761
+-1.9269 <s> tandoor 0.1761
+-1.9269 <s> tangri -0.1258
+-1.9269 <s> theen 0.1761
+-1.9269 <s> tikka 0.1761
+-1.9269 <s> upma 0.1761
+-1.9269 <s> uthappam 0.1761
+-1.9269 <s> vada 0.1761
+-1.9269 <s> vangibaath 0.1761
+-1.9269 <s> venpongal 0.1761
+-1.9269 <s> vindaloo 0.1761
+-0.1761 aat </s> 1.6284
+-0.1761 achaar </s> 1.6284
+-0.1761 adai </s> 1.6284
+-0.1761 aloo </s> 1.6284
+-0.1761 avial </s> 1.6284
+-0.1761 badam </s> 1.6284
+-0.1761 bagara </s> 1.6284
+-0.1761 baingan </s> 1.6284
+-0.1761 bartha </s> 1.6284
+-0.1761 batura </s> 1.6284
+-0.1761 bhindi </s> 1.6284
+-0.1761 biryani </s> 1.6284
+-0.1761 bisibelebaath </s> 1.6284
+-0.1761 bonda </s> 1.6284
+-0.1761 boti </s> 1.6284
+-0.1761 chaar </s> 1.6284
+-0.1761 channa </s> 1.6284
+-0.1761 che </s> 1.6284
+-0.1761 chettinand </s> 1.6284
+-0.1761 chole </s> 1.6284
+-0.1761 dahi </s> 1.6284
+-0.1761 dal </s> 1.6284
+-0.1761 do </s> 1.6284
+-0.1761 dopyaz </s> 1.6284
+-0.1761 dosa </s> 1.6284
+-0.1761 dus </s> 1.6284
+-0.1761 ek </s> 1.6284
+-0.1761 gajar </s> 1.6284
+-0.1761 gobi </s> 1.6284
+-0.1761 gosht </s> 1.6284
+-0.1761 gulabjamun </s> 1.6284
+-0.1761 halwa </s> 1.6284
+-0.1761 idli </s> 1.6284
+-0.1761 jalfrezi </s> 1.6284
+-0.1761 kaaju </s> 1.6284
+-0.1761 kadai </s> 1.6284
+-0.1761 keema </s> 1.6284
+-0.1761 kheer </s> 1.6284
+-0.1761 kofta </s> 1.6284
+-0.1761 kulcha </s> 1.6284
+-0.1761 kulfi </s> 1.6284
+-0.1761 kurma </s> 1.6284
+-0.1761 lachcha </s> 1.6284
+-0.1761 lassi </s> 1.6284
+-0.1761 makhani </s> 1.6284
+-0.1761 malai </s> 1.6284
+-0.1761 manchurian </s> 1.6284
+-0.1761 matar </s> 1.6284
+-0.1761 murg </s> 1.6284
+-0.1761 naan </s> 1.6284
+-0.1761 nau </s> 1.6284
+-0.1761 navratan </s> 1.6284
+-0.1761 paanch </s> 1.6284
+-0.1761 pakora </s> 1.6284
+-0.1761 palak </s> 1.6284
+-0.1761 papad </s> 1.6284
+-0.1761 paratha </s> 1.6284
+-0.1761 pasanda </s> 1.6284
+-0.1761 payasam </s> 1.6284
+-0.1761 poori </s> 1.6284
+-0.1761 pudina </s> 1.6284
+-0.1761 pulav </s> 1.6284
+-0.1761 raita </s> 1.6284
+-0.1761 rasam </s> 1.6284
+-0.1761 rasmalai </s> 1.6284
+-0.1761 rava </s> 1.6284
+-0.1761 roti </s> 1.6284
+-0.1761 saag </s> 1.6284
+-0.1761 saath </s> 1.6284
+-0.1761 sambar </s> 1.6284
+-0.1761 samosa </s> 1.6284
+-0.1761 seekh </s> 1.6284
+-0.1761 shahi </s> 1.6284
+-0.1761 tadka </s> 1.6284
+-0.1761 tandoor </s> 1.6284
+-0.1761 theen </s> 1.6284
+-0.1761 tikka </s> 1.6284
+-0.1761 upma </s> 1.6284
+-0.1761 uthappam </s> 1.6284
+-0.1761 vada </s> 1.6284
+-0.1761 vangibaath </s> 1.6284
+-0.1761 venpongal </s> 1.6284
+-0.1761 vindaloo </s> 1.6284
 
 \3-grams:
--1.9243 </S> <S> AAT 
--1.9243 </S> <S> ACHAAR 
--1.9243 </S> <S> ADAI 
--1.9243 </S> <S> ALOO 
--1.9243 </S> <S> AVIAL 
--1.9243 </S> <S> BADAM 
--1.9243 </S> <S> BAGARA 
--1.9243 </S> <S> BAINGAN 
--1.9243 </S> <S> BARTHA 
--1.9243 </S> <S> BATURA 
--1.9243 </S> <S> BHINDI 
--1.9243 </S> <S> BIRYANI 
--1.9243 </S> <S> BISIBELEBAATH 
--1.9243 </S> <S> BOTI 
--1.9243 </S> <S> CHAAR 
--1.9243 </S> <S> CHANNA 
--1.9243 </S> <S> CHE 
--1.9243 </S> <S> CHETTINAND 
--1.9243 </S> <S> CHOLE 
--1.9243 </S> <S> DAHI 
--1.9243 </S> <S> DAL 
--1.9243 </S> <S> DO 
--1.9243 </S> <S> DOPYAZ 
--1.9243 </S> <S> DOSA 
--1.9243 </S> <S> DUS 
--1.9243 </S> <S> EK 
--1.9243 </S> <S> GAJAR 
--1.9243 </S> <S> GOBI 
--1.9243 </S> <S> GOSHT 
--1.9243 </S> <S> GULABJAMUN 
--1.9243 </S> <S> HALWA 
--1.9243 </S> <S> IDLI 
--1.9243 </S> <S> JALFREZI 
--1.9243 </S> <S> KAAJU 
--1.9243 </S> <S> KADAI 
--1.9243 </S> <S> KEEMA 
--1.9243 </S> <S> KHEER 
--1.9243 </S> <S> KOFTA 
--1.9243 </S> <S> KULCHA 
--1.9243 </S> <S> KULFI 
--1.9243 </S> <S> KURMA 
--1.9243 </S> <S> LACHCHA 
--1.9243 </S> <S> LASSI 
--1.9243 </S> <S> MAKHANI 
--1.9243 </S> <S> MALAI 
--1.9243 </S> <S> MANCHURIAN 
--1.9243 </S> <S> MATAR 
--1.9243 </S> <S> MURG 
--1.9243 </S> <S> NAAN 
--1.9243 </S> <S> NAU 
--1.9243 </S> <S> NAVRATAN 
--1.9243 </S> <S> PAANCH 
--1.9243 </S> <S> PAKORA 
--1.9243 </S> <S> PALAK 
--1.9243 </S> <S> PAPAD 
--1.9243 </S> <S> PARATHA 
--1.9243 </S> <S> PASANDA 
--1.9243 </S> <S> PAYASAM 
--1.9243 </S> <S> POORI 
--1.9243 </S> <S> PUDINA 
--1.9243 </S> <S> PULAV 
--1.9243 </S> <S> RAITA 
--1.9243 </S> <S> RASAM 
--1.9243 </S> <S> RASMALAI 
--1.9243 </S> <S> RAVA 
--1.9243 </S> <S> ROTI 
--1.9243 </S> <S> SAAG 
--1.9243 </S> <S> SAATH 
--1.9243 </S> <S> SAMBAR 
--1.9243 </S> <S> SAMOSA 
--1.9243 </S> <S> SEEKH 
--1.9243 </S> <S> SHAHI 
--1.9243 </S> <S> TADKA 
--1.9243 </S> <S> TANDOOR 
--1.9243 </S> <S> TANGRI 
--1.9243 </S> <S> THEEN 
--1.9243 </S> <S> TIKKA 
--1.9243 </S> <S> UPMA 
--1.9243 </S> <S> UTHAPPAM 
--1.9243 </S> <S> VADA 
--1.9243 </S> <S> VANGIBAATH 
--1.9243 </S> <S> VENPONGAL 
--1.9243 </S> <S> VINDALOO 
--0.3010 <S> AAT </S> 
--0.3010 <S> ACHAAR </S> 
--0.3010 <S> ADAI </S> 
--0.3010 <S> ALOO </S> 
--0.3010 <S> AVIAL </S> 
--0.3010 <S> BADAM </S> 
--0.3010 <S> BAGARA </S> 
--0.3010 <S> BAINGAN </S> 
--0.3010 <S> BARTHA </S> 
--0.3010 <S> BATURA </S> 
--0.3010 <S> BHINDI </S> 
--0.3010 <S> BIRYANI </S> 
--0.3010 <S> BISIBELEBAATH </S> 
--0.3010 <S> BONDA </S> 
--0.3010 <S> BOTI </S> 
--0.3010 <S> CHAAR </S> 
--0.3010 <S> CHANNA </S> 
--0.3010 <S> CHE </S> 
--0.3010 <S> CHETTINAND </S> 
--0.3010 <S> CHOLE </S> 
--0.3010 <S> DAHI </S> 
--0.3010 <S> DAL </S> 
--0.3010 <S> DO </S> 
--0.3010 <S> DOPYAZ </S> 
--0.3010 <S> DOSA </S> 
--0.3010 <S> DUS </S> 
--0.3010 <S> EK </S> 
--0.3010 <S> GAJAR </S> 
--0.3010 <S> GOBI </S> 
--0.3010 <S> GOSHT </S> 
--0.3010 <S> GULABJAMUN </S> 
--0.3010 <S> HALWA </S> 
--0.3010 <S> IDLI </S> 
--0.3010 <S> JALFREZI </S> 
--0.3010 <S> KAAJU </S> 
--0.3010 <S> KADAI </S> 
--0.3010 <S> KEEMA </S> 
--0.3010 <S> KHEER </S> 
--0.3010 <S> KOFTA </S> 
--0.3010 <S> KULCHA </S> 
--0.3010 <S> KULFI </S> 
--0.3010 <S> KURMA </S> 
--0.3010 <S> LACHCHA </S> 
--0.3010 <S> LASSI </S> 
--0.3010 <S> MAKHANI </S> 
--0.3010 <S> MALAI </S> 
--0.3010 <S> MANCHURIAN </S> 
--0.3010 <S> MATAR </S> 
--0.3010 <S> MURG </S> 
--0.3010 <S> NAAN </S> 
--0.3010 <S> NAU </S> 
--0.3010 <S> NAVRATAN </S> 
--0.3010 <S> PAANCH </S> 
--0.3010 <S> PAKORA </S> 
--0.3010 <S> PALAK </S> 
--0.3010 <S> PAPAD </S> 
--0.3010 <S> PARATHA </S> 
--0.3010 <S> PASANDA </S> 
--0.3010 <S> PAYASAM </S> 
--0.3010 <S> POORI </S> 
--0.3010 <S> PUDINA </S> 
--0.3010 <S> PULAV </S> 
--0.3010 <S> RAITA </S> 
--0.3010 <S> RASAM </S> 
--0.3010 <S> RASMALAI </S> 
--0.3010 <S> RAVA </S> 
--0.3010 <S> ROTI </S> 
--0.3010 <S> SAAG </S> 
--0.3010 <S> SAATH </S> 
--0.3010 <S> SAMBAR </S> 
--0.3010 <S> SAMOSA </S> 
--0.3010 <S> SEEKH </S> 
--0.3010 <S> SHAHI </S> 
--0.3010 <S> TADKA </S> 
--0.3010 <S> TANDOOR </S> 
--0.3010 <S> TANGRI </S> 
--0.3010 <S> THEEN </S> 
--0.3010 <S> TIKKA </S> 
--0.3010 <S> UPMA </S> 
--0.3010 <S> UTHAPPAM </S> 
--0.3010 <S> VADA </S> 
--0.3010 <S> VANGIBAATH </S> 
--0.3010 <S> VENPONGAL </S> 
--0.3010 <S> VINDALOO </S> 
--0.3010 AAT </S> <S> 
--0.3010 ACHAAR </S> <S> 
--0.3010 ADAI </S> <S> 
--0.3010 ALOO </S> <S> 
--0.3010 AVIAL </S> <S> 
--0.3010 BADAM </S> <S> 
--0.3010 BAGARA </S> <S> 
--0.3010 BAINGAN </S> <S> 
--0.3010 BARTHA </S> <S> 
--0.3010 BATURA </S> <S> 
--0.3010 BHINDI </S> <S> 
--0.3010 BIRYANI </S> <S> 
--0.3010 BISIBELEBAATH </S> <S> 
--0.3010 BONDA </S> <S> 
--0.3010 BOTI </S> <S> 
--0.3010 CHAAR </S> <S> 
--0.3010 CHANNA </S> <S> 
--0.3010 CHE </S> <S> 
--0.3010 CHETTINAND </S> <S> 
--0.3010 CHOLE </S> <S> 
--0.3010 DAHI </S> <S> 
--0.3010 DAL </S> <S> 
--0.3010 DO </S> <S> 
--0.3010 DOPYAZ </S> <S> 
--0.3010 DOSA </S> <S> 
--0.3010 DUS </S> <S> 
--0.3010 EK </S> <S> 
--0.3010 GAJAR </S> <S> 
--0.3010 GOBI </S> <S> 
--0.3010 GOSHT </S> <S> 
--0.3010 GULABJAMUN </S> <S> 
--0.3010 HALWA </S> <S> 
--0.3010 IDLI </S> <S> 
--0.3010 JALFREZI </S> <S> 
--0.3010 KAAJU </S> <S> 
--0.3010 KADAI </S> <S> 
--0.3010 KEEMA </S> <S> 
--0.3010 KHEER </S> <S> 
--0.3010 KOFTA </S> <S> 
--0.3010 KULCHA </S> <S> 
--0.3010 KULFI </S> <S> 
--0.3010 KURMA </S> <S> 
--0.3010 LACHCHA </S> <S> 
--0.3010 LASSI </S> <S> 
--0.3010 MAKHANI </S> <S> 
--0.3010 MALAI </S> <S> 
--0.3010 MANCHURIAN </S> <S> 
--0.3010 MATAR </S> <S> 
--0.3010 MURG </S> <S> 
--0.3010 NAAN </S> <S> 
--0.3010 NAU </S> <S> 
--0.3010 NAVRATAN </S> <S> 
--0.3010 PAANCH </S> <S> 
--0.3010 PAKORA </S> <S> 
--0.3010 PALAK </S> <S> 
--0.3010 PAPAD </S> <S> 
--0.3010 PARATHA </S> <S> 
--0.3010 PASANDA </S> <S> 
--0.3010 PAYASAM </S> <S> 
--0.3010 POORI </S> <S> 
--0.3010 PUDINA </S> <S> 
--0.3010 PULAV </S> <S> 
--0.3010 RAITA </S> <S> 
--0.3010 RASAM </S> <S> 
--0.3010 RASMALAI </S> <S> 
--0.3010 RAVA </S> <S> 
--0.3010 ROTI </S> <S> 
--0.3010 SAAG </S> <S> 
--0.3010 SAATH </S> <S> 
--0.3010 SAMBAR </S> <S> 
--0.3010 SAMOSA </S> <S> 
--0.3010 SEEKH </S> <S> 
--0.3010 SHAHI </S> <S> 
--0.3010 TADKA </S> <S> 
--0.3010 TANDOOR </S> <S> 
--0.3010 THEEN </S> <S> 
--0.3010 TIKKA </S> <S> 
--0.3010 UPMA </S> <S> 
--0.3010 UTHAPPAM </S> <S> 
--0.3010 VADA </S> <S> 
--0.3010 VANGIBAATH </S> <S> 
--0.3010 VENPONGAL </S> <S> 
--0.3010 VINDALOO </S> <S> 
+-1.9243 </s> <s> aat 
+-1.9243 </s> <s> achaar 
+-1.9243 </s> <s> adai 
+-1.9243 </s> <s> aloo 
+-1.9243 </s> <s> avial 
+-1.9243 </s> <s> badam 
+-1.9243 </s> <s> bagara 
+-1.9243 </s> <s> baingan 
+-1.9243 </s> <s> bartha 
+-1.9243 </s> <s> batura 
+-1.9243 </s> <s> bhindi 
+-1.9243 </s> <s> biryani 
+-1.9243 </s> <s> bisibelebaath 
+-1.9243 </s> <s> boti 
+-1.9243 </s> <s> chaar 
+-1.9243 </s> <s> channa 
+-1.9243 </s> <s> che 
+-1.9243 </s> <s> chettinand 
+-1.9243 </s> <s> chole 
+-1.9243 </s> <s> dahi 
+-1.9243 </s> <s> dal 
+-1.9243 </s> <s> do 
+-1.9243 </s> <s> dopyaz 
+-1.9243 </s> <s> dosa 
+-1.9243 </s> <s> dus 
+-1.9243 </s> <s> ek 
+-1.9243 </s> <s> gajar 
+-1.9243 </s> <s> gobi 
+-1.9243 </s> <s> gosht 
+-1.9243 </s> <s> gulabjamun 
+-1.9243 </s> <s> halwa 
+-1.9243 </s> <s> idli 
+-1.9243 </s> <s> jalfrezi 
+-1.9243 </s> <s> kaaju 
+-1.9243 </s> <s> kadai 
+-1.9243 </s> <s> keema 
+-1.9243 </s> <s> kheer 
+-1.9243 </s> <s> kofta 
+-1.9243 </s> <s> kulcha 
+-1.9243 </s> <s> kulfi 
+-1.9243 </s> <s> kurma 
+-1.9243 </s> <s> lachcha 
+-1.9243 </s> <s> lassi 
+-1.9243 </s> <s> makhani 
+-1.9243 </s> <s> malai 
+-1.9243 </s> <s> manchurian 
+-1.9243 </s> <s> matar 
+-1.9243 </s> <s> murg 
+-1.9243 </s> <s> naan 
+-1.9243 </s> <s> nau 
+-1.9243 </s> <s> navratan 
+-1.9243 </s> <s> paanch 
+-1.9243 </s> <s> pakora 
+-1.9243 </s> <s> palak 
+-1.9243 </s> <s> papad 
+-1.9243 </s> <s> paratha 
+-1.9243 </s> <s> pasanda 
+-1.9243 </s> <s> payasam 
+-1.9243 </s> <s> poori 
+-1.9243 </s> <s> pudina 
+-1.9243 </s> <s> pulav 
+-1.9243 </s> <s> raita 
+-1.9243 </s> <s> rasam 
+-1.9243 </s> <s> rasmalai 
+-1.9243 </s> <s> rava 
+-1.9243 </s> <s> roti 
+-1.9243 </s> <s> saag 
+-1.9243 </s> <s> saath 
+-1.9243 </s> <s> sambar 
+-1.9243 </s> <s> samosa 
+-1.9243 </s> <s> seekh 
+-1.9243 </s> <s> shahi 
+-1.9243 </s> <s> tadka 
+-1.9243 </s> <s> tandoor 
+-1.9243 </s> <s> tangri 
+-1.9243 </s> <s> theen 
+-1.9243 </s> <s> tikka 
+-1.9243 </s> <s> upma 
+-1.9243 </s> <s> uthappam 
+-1.9243 </s> <s> vada 
+-1.9243 </s> <s> vangibaath 
+-1.9243 </s> <s> venpongal 
+-1.9243 </s> <s> vindaloo 
+-0.3010 <s> aat </s> 
+-0.3010 <s> achaar </s> 
+-0.3010 <s> adai </s> 
+-0.3010 <s> aloo </s> 
+-0.3010 <s> avial </s> 
+-0.3010 <s> badam </s> 
+-0.3010 <s> bagara </s> 
+-0.3010 <s> baingan </s> 
+-0.3010 <s> bartha </s> 
+-0.3010 <s> batura </s> 
+-0.3010 <s> bhindi </s> 
+-0.3010 <s> biryani </s> 
+-0.3010 <s> bisibelebaath </s> 
+-0.3010 <s> bonda </s> 
+-0.3010 <s> boti </s> 
+-0.3010 <s> chaar </s> 
+-0.3010 <s> channa </s> 
+-0.3010 <s> che </s> 
+-0.3010 <s> chettinand </s> 
+-0.3010 <s> chole </s> 
+-0.3010 <s> dahi </s> 
+-0.3010 <s> dal </s> 
+-0.3010 <s> do </s> 
+-0.3010 <s> dopyaz </s> 
+-0.3010 <s> dosa </s> 
+-0.3010 <s> dus </s> 
+-0.3010 <s> ek </s> 
+-0.3010 <s> gajar </s> 
+-0.3010 <s> gobi </s> 
+-0.3010 <s> gosht </s> 
+-0.3010 <s> gulabjamun </s> 
+-0.3010 <s> halwa </s> 
+-0.3010 <s> idli </s> 
+-0.3010 <s> jalfrezi </s> 
+-0.3010 <s> kaaju </s> 
+-0.3010 <s> kadai </s> 
+-0.3010 <s> keema </s> 
+-0.3010 <s> kheer </s> 
+-0.3010 <s> kofta </s> 
+-0.3010 <s> kulcha </s> 
+-0.3010 <s> kulfi </s> 
+-0.3010 <s> kurma </s> 
+-0.3010 <s> lachcha </s> 
+-0.3010 <s> lassi </s> 
+-0.3010 <s> makhani </s> 
+-0.3010 <s> malai </s> 
+-0.3010 <s> manchurian </s> 
+-0.3010 <s> matar </s> 
+-0.3010 <s> murg </s> 
+-0.3010 <s> naan </s> 
+-0.3010 <s> nau </s> 
+-0.3010 <s> navratan </s> 
+-0.3010 <s> paanch </s> 
+-0.3010 <s> pakora </s> 
+-0.3010 <s> palak </s> 
+-0.3010 <s> papad </s> 
+-0.3010 <s> paratha </s> 
+-0.3010 <s> pasanda </s> 
+-0.3010 <s> payasam </s> 
+-0.3010 <s> poori </s> 
+-0.3010 <s> pudina </s> 
+-0.3010 <s> pulav </s> 
+-0.3010 <s> raita </s> 
+-0.3010 <s> rasam </s> 
+-0.3010 <s> rasmalai </s> 
+-0.3010 <s> rava </s> 
+-0.3010 <s> roti </s> 
+-0.3010 <s> saag </s> 
+-0.3010 <s> saath </s> 
+-0.3010 <s> sambar </s> 
+-0.3010 <s> samosa </s> 
+-0.3010 <s> seekh </s> 
+-0.3010 <s> shahi </s> 
+-0.3010 <s> tadka </s> 
+-0.3010 <s> tandoor </s> 
+-0.3010 <s> tangri </s> 
+-0.3010 <s> theen </s> 
+-0.3010 <s> tikka </s> 
+-0.3010 <s> upma </s> 
+-0.3010 <s> uthappam </s> 
+-0.3010 <s> vada </s> 
+-0.3010 <s> vangibaath </s> 
+-0.3010 <s> venpongal </s> 
+-0.3010 <s> vindaloo </s> 
+-0.3010 aat </s> <s> 
+-0.3010 achaar </s> <s> 
+-0.3010 adai </s> <s> 
+-0.3010 aloo </s> <s> 
+-0.3010 avial </s> <s> 
+-0.3010 badam </s> <s> 
+-0.3010 bagara </s> <s> 
+-0.3010 baingan </s> <s> 
+-0.3010 bartha </s> <s> 
+-0.3010 batura </s> <s> 
+-0.3010 bhindi </s> <s> 
+-0.3010 biryani </s> <s> 
+-0.3010 bisibelebaath </s> <s> 
+-0.3010 bonda </s> <s> 
+-0.3010 boti </s> <s> 
+-0.3010 chaar </s> <s> 
+-0.3010 channa </s> <s> 
+-0.3010 che </s> <s> 
+-0.3010 chettinand </s> <s> 
+-0.3010 chole </s> <s> 
+-0.3010 dahi </s> <s> 
+-0.3010 dal </s> <s> 
+-0.3010 do </s> <s> 
+-0.3010 dopyaz </s> <s> 
+-0.3010 dosa </s> <s> 
+-0.3010 dus </s> <s> 
+-0.3010 ek </s> <s> 
+-0.3010 gajar </s> <s> 
+-0.3010 gobi </s> <s> 
+-0.3010 gosht </s> <s> 
+-0.3010 gulabjamun </s> <s> 
+-0.3010 halwa </s> <s> 
+-0.3010 idli </s> <s> 
+-0.3010 jalfrezi </s> <s> 
+-0.3010 kaaju </s> <s> 
+-0.3010 kadai </s> <s> 
+-0.3010 keema </s> <s> 
+-0.3010 kheer </s> <s> 
+-0.3010 kofta </s> <s> 
+-0.3010 kulcha </s> <s> 
+-0.3010 kulfi </s> <s> 
+-0.3010 kurma </s> <s> 
+-0.3010 lachcha </s> <s> 
+-0.3010 lassi </s> <s> 
+-0.3010 makhani </s> <s> 
+-0.3010 malai </s> <s> 
+-0.3010 manchurian </s> <s> 
+-0.3010 matar </s> <s> 
+-0.3010 murg </s> <s> 
+-0.3010 naan </s> <s> 
+-0.3010 nau </s> <s> 
+-0.3010 navratan </s> <s> 
+-0.3010 paanch </s> <s> 
+-0.3010 pakora </s> <s> 
+-0.3010 palak </s> <s> 
+-0.3010 papad </s> <s> 
+-0.3010 paratha </s> <s> 
+-0.3010 pasanda </s> <s> 
+-0.3010 payasam </s> <s> 
+-0.3010 poori </s> <s> 
+-0.3010 pudina </s> <s> 
+-0.3010 pulav </s> <s> 
+-0.3010 raita </s> <s> 
+-0.3010 rasam </s> <s> 
+-0.3010 rasmalai </s> <s> 
+-0.3010 rava </s> <s> 
+-0.3010 roti </s> <s> 
+-0.3010 saag </s> <s> 
+-0.3010 saath </s> <s> 
+-0.3010 sambar </s> <s> 
+-0.3010 samosa </s> <s> 
+-0.3010 seekh </s> <s> 
+-0.3010 shahi </s> <s> 
+-0.3010 tadka </s> <s> 
+-0.3010 tandoor </s> <s> 
+-0.3010 theen </s> <s> 
+-0.3010 tikka </s> <s> 
+-0.3010 upma </s> <s> 
+-0.3010 uthappam </s> <s> 
+-0.3010 vada </s> <s> 
+-0.3010 vangibaath </s> <s> 
+-0.3010 venpongal </s> <s> 
+-0.3010 vindaloo </s> <s> 
 
 \end\

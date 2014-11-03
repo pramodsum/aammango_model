@@ -1,50 +1,50 @@
-<S> GOSHT VENPONGAL BIRYANI SAAG RASAM TANDOOR BARTHA </S>
-<S> VADA SEEKH GOSHT BOTI SAMBAR KAAJU </S>
-<S> VANGIBAATH BIRYANI BONDA BADAM GULAB JAMUN </S>
-<S> ROTI CHETTINAND TIKKA MATAR TADKA PULAV </S>
-<S> DAL UPMA PAPAD PAKORA TANGRI SAATH PARATHA </S>
-<S> ROTI ADAI VADA MALAI TADKA CHE </S>
-<S> TANDOOR SHAHI CHANNA BAGARA DOPYAZ PAKORA </S>
-<S> LASSI UTHAPPAM CHAAR UTHAPPAM VADA SAAG VINDALOO BAINGAN RAITA </S>
-<S> TANDOOR VANGIBAATH SAMBAR THEEN ROTI </S>
-<S> AVIAL DOSA MANCHURIAN PUDINA KULCHA DUS NAVRATAN KADAI </S>
-<S> PARATHA NAU MATAR GOBI BONDA BAINGAN RAITA </S>
-<S> DO PASANDA CHANNA CHAAR AVIAL BHINDI </S>
-<S> AVIAL SEEKH UPMA KADAI BATURA RASMALAI </S>
-<S> TANDOOR UPMA VADA </S>
-<S> MANCHURIAN KHEER THEEN PUDINA SAATH MATAR </S>
-<S> IDLI MATAR PAYASAM MURG PUDINA ACHAAR TIKKA </S>
-<S> PAYASAM PAKORA BOTI PAPAD </S>
-<S> BHINDI POORI MALAI LACHCHA BIRYANI KOFTA </S>
-<S> AAT CHOLI BHINDI NAVRATAN KOFTA DUS ADAI BAGARA </S>
-<S> UPMA EK CHOLI PALAK PUDINA BHINDI PAYASAM PUDINA </S>
-<S> VADA ADAI BAINGAN KADAI </S>
-<S> POORI AVIAL TANDOOR KURMA GULAB JAMUN SAATH </S>
-<S> VENPONGAL KEEMA BAINGAN RAVA TIKKA </S>
-<S> HALWA KEEMA SAMBAR RAITA KEEMA CHETTINAND MALAI MAKHANI </S>
-<S> LASSI CHAAR CHANNA DAHI MURG THEEN AVIAL </S>
-<S> GOBI KAAJU BOTI DAL RAVA </S>
-<S> VANGIBAATH THEEN VENPONGAL TIKKA VANGIBAATH </S>
-<S> TANDOOR PAPAD SHAHI EK BAGARA VADA </S>
-<S> DAL KURMA PUDINA KHEER DOPYAZ NAVRATAN DOSA PAYASAM CHOLI </S>
-<S> MAKHANI BHINDI GOSHT TANGRI KEEMA </S>
-<S> LASSI DOPYAZ DOSA </S>
-<S> UPMA IDLI KADAI ROTI BIRYANI GULAB JAMUN MATAR ALOO SAMOSA MURG </S>
-<S> TADKA AAT BARTHA </S>
-<S> MALAI DOSA MALAI AVIAL DAHI SAMOSA </S>
-<S> DOSA TANGRI JAL FREZI HALWA KAAJU KHEER PAYASAM GOSHT PAANCH </S>
-<S> BARTHA EK KULFI KAAJU KULCHA </S>
-<S> BATURA RAITA UTHAPPAM HALWA CHETTINAND CHETTINAND THEEN UTHAPPAM </S>
-<S> TIKKA GULAB JAMUN KURMA TANGRI RASAM ACHAAR </S>
-<S> PAPAD VENPONGAL MATAR PAKORA BIRYANI DOSA </S>
-<S> PASANDA SEEKH SAMOSA ADAI PARATHA MALAI MANCHURIAN KEEMA </S>
-<S> PAANCH PULAV NAAN SHAHI DAHI </S>
-<S> DOSA CHANNA BHINDI KULCHA UTHAPPAM THEEN RAVA LASSI </S>
-<S> RAVA UPMA THEEN </S>
-<S> DAL SAMOSA DO SAMBAR GOBI SAMBAR UTHAPPAM PALAK </S>
-<S> RAITA DUS SAAG TANDOOR DAHI PAPAD </S>
-<S> ROTI UPMA PAPAD PULAV </S>
-<S> SAAG EK KURMA RASMALAI CHAAR VINDALOO </S>
-<S> UTHAPPAM HALWA SAATH PAYASAM PULAV SAATH BATURA KULCHA PAANCH </S>
-<S> VANGIBAATH AAT SAMOSA DO LACHCHA PAKORA BAINGAN MAKHANI VINDALOO </S>
-<S> PAPAD RASAM MURG BOTI TANGRI SAAG PAPAD RAITA </S>
+<s> gosht venpongal biryani saag rasam tandoor bartha </s>
+<s> vada seekh gosht boti sambar kaaju </s>
+<s> vangibaath biryani bonda badam gulab jamun </s>
+<s> roti chettinand tikka matar tadka pulav </s>
+<s> dal upma papad pakora tangri saath paratha </s>
+<s> roti adai vada malai tadka che </s>
+<s> tandoor shahi channa bagara dopyaz pakora </s>
+<s> lassi uthappam chaar uthappam vada saag vindaloo baingan raita </s>
+<s> tandoor vangibaath sambar theen roti </s>
+<s> avial dosa manchurian pudina kulcha dus navratan kadai </s>
+<s> paratha nau matar gobi bonda baingan raita </s>
+<s> do pasanda channa chaar avial bhindi </s>
+<s> avial seekh upma kadai batura rasmalai </s>
+<s> tandoor upma vada </s>
+<s> manchurian kheer theen pudina saath matar </s>
+<s> idli matar payasam murg pudina achaar tikka </s>
+<s> payasam pakora boti papad </s>
+<s> bhindi poori malai lachcha biryani kofta </s>
+<s> aat choli bhindi navratan kofta dus adai bagara </s>
+<s> upma ek choli palak pudina bhindi payasam pudina </s>
+<s> vada adai baingan kadai </s>
+<s> poori avial tandoor kurma gulab jamun saath </s>
+<s> venpongal keema baingan rava tikka </s>
+<s> halwa keema sambar raita keema chettinand malai makhani </s>
+<s> lassi chaar channa dahi murg theen avial </s>
+<s> gobi kaaju boti dal rava </s>
+<s> vangibaath theen venpongal tikka vangibaath </s>
+<s> tandoor papad shahi ek bagara vada </s>
+<s> dal kurma pudina kheer dopyaz navratan dosa payasam choli </s>
+<s> makhani bhindi gosht tangri keema </s>
+<s> lassi dopyaz dosa </s>
+<s> upma idli kadai roti biryani gulab jamun matar aloo samosa murg </s>
+<s> tadka aat bartha </s>
+<s> malai dosa malai avial dahi samosa </s>
+<s> dosa tangri jal frezi halwa kaaju kheer payasam gosht paanch </s>
+<s> bartha ek kulfi kaaju kulcha </s>
+<s> batura raita uthappam halwa chettinand chettinand theen uthappam </s>
+<s> tikka gulab jamun kurma tangri rasam achaar </s>
+<s> papad venpongal matar pakora biryani dosa </s>
+<s> pasanda seekh samosa adai paratha malai manchurian keema </s>
+<s> paanch pulav naan shahi dahi </s>
+<s> dosa channa bhindi kulcha uthappam theen rava lassi </s>
+<s> rava upma theen </s>
+<s> dal samosa do sambar gobi sambar uthappam palak </s>
+<s> raita dus saag tandoor dahi papad </s>
+<s> roti upma papad pulav </s>
+<s> saag ek kurma rasmalai chaar vindaloo </s>
+<s> uthappam halwa saath payasam pulav saath batura kulcha paanch </s>
+<s> vangibaath aat samosa do lachcha pakora baingan makhani vindaloo </s>
+<s> papad rasam murg boti tangri saag papad raita </s>
