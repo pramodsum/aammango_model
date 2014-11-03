@@ -1,0 +1,67 @@
+WDBNDRY_B
+WDBNDRY_E
+WDBNDRY_S
+WDBNDRY_I
+SILENCE   SIL
+QUESTION0_0_R  aa aam ae au ch: e ii n n:d n:d. nd nd. nt:h r. rm sp uu
+QUESTION0_1_R  sp
+QUESTION0_2_R  aa aam ae au ch: e ii n n:d n:d. nd nd. nt:h r. rm uu
+QUESTION0_3_R  aam e ii n n:d n:d. nt:h r. uu
+QUESTION0_4_R  e ii n:d.
+QUESTION0_5_R  aam n n:d nt:h r. uu
+QUESTION0_6_R  n:d uu
+QUESTION0_7_R  aam n nt:h r.
+QUESTION0_8_R  aa ae au ch: nd nd. rm
+QUESTION0_9_R  I a aaa ach ap as b b:h c:h ch d d. et g h i ik in: j k k:h l m m:b n:ch n:g n:p nch o oo p ph phth py r r:e r:g s sh shth t t:h th ti u ul uth v w y z
+QUESTION0_10_R  aaa ach as c:h ch et j n:ch nch ph r:e r:g s sh shth ul z
+QUESTION0_11_R  as r:e s z
+QUESTION0_12_R  aaa ach c:h ch et j n:ch nch ph r:g sh shth ul
+QUESTION0_13_R  c:h ch j ph sh
+QUESTION0_14_R  aaa ach et n:ch nch r:g shth ul
+QUESTION0_15_R  r:g shth
+QUESTION0_16_R  aaa ach et n:ch nch ul
+QUESTION0_17_R  et ul
+QUESTION0_18_R  aaa ach n:ch nch
+QUESTION0_19_R  ach n:ch nch
+QUESTION0_20_R  I a ap b b:h d d. g h i ik in: k k:h l m m:b n:g n:p o oo p phth py r t t:h th ti u uth v w y
+QUESTION0  sp
+QUESTION1  I a aa aaa aam ach ae ap as au b b:h c:h ch ch: d d. e et g h i ii ik in: j k k:h l m m:b n n:ch n:d n:d. n:g n:p nch nd nd. nt:h o oo p ph phth py r r. r:e r:g rm s sh shth t t:h th ti u ul uth uu v w y z
+QUESTION2  I aaa ach as b et ik in: n:p nch o oo p s sh ti ul uth
+QUESTION3  b ik in: n:p oo p s sh ti
+QUESTION4  ik s sh
+QUESTION5  ik sh
+QUESTION6  b in: n:p oo p ti
+QUESTION7  I aaa ach as et nch o ul uth
+QUESTION8  a aa aam ae ap au b:h c:h ch ch: d d. e g h i ii j k k:h l m m:b n n:ch n:d n:d. n:g nd nd. nt:h ph phth py r r. r:e r:g rm shth t t:h th u uu v w y z
+QUESTION9  ap b:h c:h ch ch: d d. g i j k m m:b n n:g nd. ph phth py r r:e t v
+QUESTION10  a aa aam ae au e h ii k:h l n:ch n:d n:d. nd nt:h r. r:g rm shth t:h th u uu w y z
+QUESTION11  aam ae au e h ii n:ch n:d n:d. nt:h r. r:g shth t:h uu w y z
+QUESTION12  ae au e h n:ch n:d n:d. r. r:g shth t:h uu w y z
+QUESTION13  ae au e h n:d n:d. r. uu w y
+QUESTION14  n:ch r:g shth t:h z
+QUESTION15  n:ch shth t:h
+QUESTION16  shth t:h
+QUESTION17  r:g z
+QUESTION18  aam ii nt:h
+QUESTION19  a aa k:h l nd rm th u
+QUESTION2_0_L  sp
+QUESTION2_1_L  I a aa aaa aam ach ae ap as au b b:h c:h ch ch: d d. e et g h i ii ik in: j k k:h l m m:b n n:ch n:d n:d. n:g n:p nch nd nd. nt:h o oo p ph phth py r r. r:e r:g rm s sh shth t t:h th ti u ul uth uu v w y z
+QUESTION2_2_L  I a aa aaa aam ach ae as au b:h ch: e et g h i ii k l m n n:ch n:d n:d. nch nd nd. nt:h o oo ph phth py r r. r:e r:g rm shth t t:h th u ul uth uu w z
+QUESTION2_3_L  aa aam au ch: ii l n n:ch n:d nd nd. nt:h o phth py r:g rm shth t:h uu w z
+QUESTION2_4_L  aa ch: nd nd. phth rm
+QUESTION2_5_L  ch: nd. phth
+QUESTION2_6_L  ch: phth
+QUESTION2_7_L  aa nd rm
+QUESTION2_8_L  aam au ii l n n:ch n:d nt:h o py r:g shth t:h uu w z
+QUESTION2_9_L  ii l n n:d o py uu w z
+QUESTION2_10_L  n uu
+QUESTION2_11_L  ii l n:d o py w z
+QUESTION2_12_L  l o py
+QUESTION2_13_L  ii n:d w z
+QUESTION2_14_L  n:d w
+QUESTION2_15_L  ii z
+QUESTION2_16_L  aam au n:ch nt:h r:g shth t:h
+QUESTION2_17_L  I a aaa ach ae as b:h e et g h i k m n:d. nch oo ph r r. r:e t th u ul uth
+QUESTION2_18_L  I aaa ach b:h e nch u ul uth
+QUESTION2_19_L  a ae as et g h i k m n:d. oo ph r r. r:e t th
+QUESTION2_20_L  ap b c:h ch d d. ik in: j k:h m:b n:g n:p p s sh ti v y

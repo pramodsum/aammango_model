@@ -1,0 +1,51 @@
+INFO: cmd_ln.c(696): Parsing command line:
+/usr/local/libexec/sphinxtrain/make_quests \
+	-moddeffn /home/sumu/aammango/model_architecture/aammango.ci.mdef \
+	-meanfn /home/sumu/aammango/model_parameters/aammango.ci_cont/means \
+	-varfn /home/sumu/aammango/model_parameters/aammango.ci_cont/variances \
+	-fullvar no \
+	-mixwfn /home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights \
+	-npermute 12 \
+	-niter 1 \
+	-qstperstt 20 \
+	-questfn /home/sumu/aammango/model_architecture/aammango.tree_questions \
+	-type .cont. 
+
+Current configuration:
+[NAME]		[DEFLT]			[VALUE]
+-example	no			no
+-fullvar	no			no
+-help		no			no
+-meanfn					/home/sumu/aammango/model_parameters/aammango.ci_cont/means
+-mixwfn					/home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights
+-moddeffn				/home/sumu/aammango/model_architecture/aammango.ci.mdef
+-niter		0			1
+-npermute	6			12
+-qstperstt	8			20
+-questfn				/home/sumu/aammango/model_architecture/aammango.tree_questions
+-tempfn		/tmp/TEMP.QUESTS	/tmp/TEMP.QUESTS
+-type					.cont.
+-varfloor	1.0e-08			1.000000e-08
+-varfn					/home/sumu/aammango/model_parameters/aammango.ci_cont/variances
+
+INFO: main.c(792): Reading: /home/sumu/aammango/model_architecture/aammango.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 69 total models defined (69 base, 0 tri)
+INFO: model_def_io.c(575): 276 total states
+INFO: model_def_io.c(576): 207 total tied states
+INFO: model_def_io.c(577): 207 total tied CI states
+INFO: model_def_io.c(578): 69 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(811): Reading: /home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights
+INFO: s3mixw_io.c(117): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights [207x1x1 array]
+INFO: s3gau_io.c(169): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/means [207x1x1 array]
+INFO: s3gau_io.c(169): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/variances [207x1x1 array]
+INFO: main.c(1109): Done building questions using state 0
+INFO: main.c(1110):  21 questions from state 0
+INFO: main.c(1109): Done building questions using state 1
+INFO: main.c(1110):  20 questions from state 1
+INFO: main.c(1109): Done building questions using state 2
+INFO: main.c(1110):  21 questions from state 2
+INFO: main.c(1115): Stored questions in /home/sumu/aammango/model_architecture/aammango.tree_questions
+Mon Nov  3 11:36:21 2014

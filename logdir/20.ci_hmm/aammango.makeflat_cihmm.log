@@ -1,0 +1,33 @@
+INFO: cmd_ln.c(696): Parsing command line:
+/usr/local/libexec/sphinxtrain/mk_flat \
+	-moddeffn /home/sumu/aammango/model_architecture/aammango.ci.mdef \
+	-topo /home/sumu/aammango/model_architecture/aammango.topology \
+	-mixwfn /home/sumu/aammango/model_parameters/aammango.ci_cont_flatinitial/mixture_weights \
+	-tmatfn /home/sumu/aammango/model_parameters/aammango.ci_cont_flatinitial/transition_matrices \
+	-nstream 1 \
+	-ndensity 1 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-example	no	no
+-help		no	no
+-mixwfn			/home/sumu/aammango/model_parameters/aammango.ci_cont_flatinitial/mixture_weights
+-moddeffn		/home/sumu/aammango/model_architecture/aammango.ci.mdef
+-ndensity	256	1
+-nstream	4	1
+-tmatfn			/home/sumu/aammango/model_parameters/aammango.ci_cont_flatinitial/transition_matrices
+-topo			/home/sumu/aammango/model_architecture/aammango.topology
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 69 total models defined (69 base, 0 tri)
+INFO: model_def_io.c(575): 276 total states
+INFO: model_def_io.c(576): 207 total tied states
+INFO: model_def_io.c(577): 207 total tied CI states
+INFO: model_def_io.c(578): 69 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3tmat_io.c(176): Wrote /home/sumu/aammango/model_parameters/aammango.ci_cont_flatinitial/transition_matrices [69x3x4 array]
+INFO: s3mixw_io.c(233): Wrote /home/sumu/aammango/model_parameters/aammango.ci_cont_flatinitial/mixture_weights [207x1x1 array]
+main.c(83): Reading model definition file /home/sumu/aammango/model_architecture/aammango.ci.mdef
+main.c(90): 69 models defined
+Mon Nov  3 11:35:32 2014

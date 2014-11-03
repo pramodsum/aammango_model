@@ -1,0 +1,1369 @@
+INFO: cmd_ln.c(696): Parsing command line:
+/usr/local/libexec/sphinxtrain/init_mixw \
+	-src_moddeffn /home/sumu/aammango/model_architecture/aammango.ci.mdef \
+	-src_ts2cbfn .cont. \
+	-src_mixwfn /home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights \
+	-src_meanfn /home/sumu/aammango/model_parameters/aammango.ci_cont/means \
+	-src_varfn /home/sumu/aammango/model_parameters/aammango.ci_cont/variances \
+	-src_tmatfn /home/sumu/aammango/model_parameters/aammango.ci_cont/transition_matrices \
+	-dest_moddeffn /home/sumu/aammango/model_architecture/aammango.200.mdef \
+	-dest_ts2cbfn .cont. \
+	-dest_mixwfn /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/mixture_weights \
+	-dest_meanfn /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/means \
+	-dest_varfn /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/variances \
+	-dest_tmatfn /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/transition_matrices \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dest_meanfn		/home/sumu/aammango/model_parameters/aammango.cd_cont_initial/means
+-dest_mixwfn		/home/sumu/aammango/model_parameters/aammango.cd_cont_initial/mixture_weights
+-dest_moddeffn		/home/sumu/aammango/model_architecture/aammango.200.mdef
+-dest_tmatfn		/home/sumu/aammango/model_parameters/aammango.cd_cont_initial/transition_matrices
+-dest_ts2cbfn		.cont.
+-dest_varfn		/home/sumu/aammango/model_parameters/aammango.cd_cont_initial/variances
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-src_meanfn		/home/sumu/aammango/model_parameters/aammango.ci_cont/means
+-src_mixwfn		/home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights
+-src_moddeffn		/home/sumu/aammango/model_architecture/aammango.ci.mdef
+-src_tmatfn		/home/sumu/aammango/model_parameters/aammango.ci_cont/transition_matrices
+-src_ts2cbfn		.cont.
+-src_varfn		/home/sumu/aammango/model_parameters/aammango.ci_cont/variances
+
+INFO: main.c(262): Reading src /home/sumu/aammango/model_architecture/aammango.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 69 total models defined (69 base, 0 tri)
+INFO: model_def_io.c(575): 276 total states
+INFO: model_def_io.c(576): 207 total tied states
+INFO: model_def_io.c(577): 207 total tied CI states
+INFO: model_def_io.c(578): 69 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(279): Generating continous ts2cb mapping
+INFO: main.c(300): Reading src /home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights
+INFO: s3mixw_io.c(117): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/mixture_weights [207x1x1 array]
+INFO: main.c(310): Reading src /home/sumu/aammango/model_parameters/aammango.ci_cont/transition_matrices
+INFO: s3tmat_io.c(118): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/transition_matrices [69x3x4 array]
+INFO: main.c(319): Reading src /home/sumu/aammango/model_parameters/aammango.ci_cont/means
+INFO: s3gau_io.c(169): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/means [207x1x1 array]
+INFO: main.c(343): Reading src /home/sumu/aammango/model_parameters/aammango.ci_cont/variances
+INFO: s3gau_io.c(169): Read /home/sumu/aammango/model_parameters/aammango.ci_cont/variances [207x1x1 array]
+INFO: main.c(392): Reading dest /home/sumu/aammango/model_architecture/aammango.200.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 1225 total models defined (69 base, 1156 tri)
+INFO: model_def_io.c(575): 4900 total states
+INFO: model_def_io.c(576): 411 total tied states
+INFO: model_def_io.c(577): 207 total tied CI states
+INFO: model_def_io.c(578): 69 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(408): Generating continous ts2cb mapping
+INFO: main.c(432): Calculating initial model parameters
+INFO: main.c(440): Alloc 69x3x4 dest tmat
+INFO: main.c(451): Alloc 411x1x1 dest mixw
+INFO: main.c(464): Alloc 411x1x1 dest mean and var
+         I <- I         : [tm     0 +=     0]
+[mx     0(0) +=     0] [mg     0(0) <-     0] [mx     1(1) +=     1] [mg     1(1) <-     1] [mx     2(2) +=     2] [mg     2(2) <-     2] 
+       SIL <- SIL       : [tm     1 +=     1]
+[mx     3(0) +=     3] [mg     3(0) <-     3] [mx     4(1) +=     4] [mg     4(1) <-     4] [mx     5(2) +=     5] [mg     5(2) <-     5] 
+         a <- a         : [tm     2 +=     2]
+[mx     6(0) +=     6] [mg     6(0) <-     6] [mx     7(1) +=     7] [mg     7(1) <-     7] [mx     8(2) +=     8] [mg     8(2) <-     8] 
+        aa <- aa        : [tm     3 +=     3]
+[mx     9(0) +=     9] [mg     9(0) <-     9] [mx    10(1) +=    10] [mg    10(1) <-    10] [mx    11(2) +=    11] [mg    11(2) <-    11] 
+       aaa <- aaa       : [tm     4 +=     4]
+[mx    12(0) +=    12] [mg    12(0) <-    12] [mx    13(1) +=    13] [mg    13(1) <-    13] [mx    14(2) +=    14] [mg    14(2) <-    14] 
+       aam <- aam       : [tm     5 +=     5]
+[mx    15(0) +=    15] [mg    15(0) <-    15] [mx    16(1) +=    16] [mg    16(1) <-    16] [mx    17(2) +=    17] [mg    17(2) <-    17] 
+       ach <- ach       : [tm     6 +=     6]
+[mx    18(0) +=    18] [mg    18(0) <-    18] [mx    19(1) +=    19] [mg    19(1) <-    19] [mx    20(2) +=    20] [mg    20(2) <-    20] 
+        ae <- ae        : [tm     7 +=     7]
+[mx    21(0) +=    21] [mg    21(0) <-    21] [mx    22(1) +=    22] [mg    22(1) <-    22] [mx    23(2) +=    23] [mg    23(2) <-    23] 
+        ap <- ap        : [tm     8 +=     8]
+[mx    24(0) +=    24] [mg    24(0) <-    24] [mx    25(1) +=    25] [mg    25(1) <-    25] [mx    26(2) +=    26] [mg    26(2) <-    26] 
+        as <- as        : [tm     9 +=     9]
+[mx    27(0) +=    27] [mg    27(0) <-    27] [mx    28(1) +=    28] [mg    28(1) <-    28] [mx    29(2) +=    29] [mg    29(2) <-    29] 
+        au <- au        : [tm    10 +=    10]
+[mx    30(0) +=    30] [mg    30(0) <-    30] [mx    31(1) +=    31] [mg    31(1) <-    31] [mx    32(2) +=    32] [mg    32(2) <-    32] 
+         b <- b         : [tm    11 +=    11]
+[mx    33(0) +=    33] [mg    33(0) <-    33] [mx    34(1) +=    34] [mg    34(1) <-    34] [mx    35(2) +=    35] [mg    35(2) <-    35] 
+       b:h <- b:h       : [tm    12 +=    12]
+[mx    36(0) +=    36] [mg    36(0) <-    36] [mx    37(1) +=    37] [mg    37(1) <-    37] [mx    38(2) +=    38] [mg    38(2) <-    38] 
+       c:h <- c:h       : [tm    13 +=    13]
+[mx    39(0) +=    39] [mg    39(0) <-    39] [mx    40(1) +=    40] [mg    40(1) <-    40] [mx    41(2) +=    41] [mg    41(2) <-    41] 
+        ch <- ch        : [tm    14 +=    14]
+[mx    42(0) +=    42] [mg    42(0) <-    42] [mx    43(1) +=    43] [mg    43(1) <-    43] [mx    44(2) +=    44] [mg    44(2) <-    44] 
+       ch: <- ch:       : [tm    15 +=    15]
+[mx    45(0) +=    45] [mg    45(0) <-    45] [mx    46(1) +=    46] [mg    46(1) <-    46] [mx    47(2) +=    47] [mg    47(2) <-    47] 
+         d <- d         : [tm    16 +=    16]
+[mx    48(0) +=    48] [mg    48(0) <-    48] [mx    49(1) +=    49] [mg    49(1) <-    49] [mx    50(2) +=    50] [mg    50(2) <-    50] 
+        d. <- d.        : [tm    17 +=    17]
+[mx    51(0) +=    51] [mg    51(0) <-    51] [mx    52(1) +=    52] [mg    52(1) <-    52] [mx    53(2) +=    53] [mg    53(2) <-    53] 
+         e <- e         : [tm    18 +=    18]
+[mx    54(0) +=    54] [mg    54(0) <-    54] [mx    55(1) +=    55] [mg    55(1) <-    55] [mx    56(2) +=    56] [mg    56(2) <-    56] 
+        et <- et        : [tm    19 +=    19]
+[mx    57(0) +=    57] [mg    57(0) <-    57] [mx    58(1) +=    58] [mg    58(1) <-    58] [mx    59(2) +=    59] [mg    59(2) <-    59] 
+         g <- g         : [tm    20 +=    20]
+[mx    60(0) +=    60] [mg    60(0) <-    60] [mx    61(1) +=    61] [mg    61(1) <-    61] [mx    62(2) +=    62] [mg    62(2) <-    62] 
+         h <- h         : [tm    21 +=    21]
+[mx    63(0) +=    63] [mg    63(0) <-    63] [mx    64(1) +=    64] [mg    64(1) <-    64] [mx    65(2) +=    65] [mg    65(2) <-    65] 
+         i <- i         : [tm    22 +=    22]
+[mx    66(0) +=    66] [mg    66(0) <-    66] [mx    67(1) +=    67] [mg    67(1) <-    67] [mx    68(2) +=    68] [mg    68(2) <-    68] 
+        ii <- ii        : [tm    23 +=    23]
+[mx    69(0) +=    69] [mg    69(0) <-    69] [mx    70(1) +=    70] [mg    70(1) <-    70] [mx    71(2) +=    71] [mg    71(2) <-    71] 
+        ik <- ik        : [tm    24 +=    24]
+[mx    72(0) +=    72] [mg    72(0) <-    72] [mx    73(1) +=    73] [mg    73(1) <-    73] [mx    74(2) +=    74] [mg    74(2) <-    74] 
+       in: <- in:       : [tm    25 +=    25]
+[mx    75(0) +=    75] [mg    75(0) <-    75] [mx    76(1) +=    76] [mg    76(1) <-    76] [mx    77(2) +=    77] [mg    77(2) <-    77] 
+         j <- j         : [tm    26 +=    26]
+[mx    78(0) +=    78] [mg    78(0) <-    78] [mx    79(1) +=    79] [mg    79(1) <-    79] [mx    80(2) +=    80] [mg    80(2) <-    80] 
+         k <- k         : [tm    27 +=    27]
+[mx    81(0) +=    81] [mg    81(0) <-    81] [mx    82(1) +=    82] [mg    82(1) <-    82] [mx    83(2) +=    83] [mg    83(2) <-    83] 
+       k:h <- k:h       : [tm    28 +=    28]
+[mx    84(0) +=    84] [mg    84(0) <-    84] [mx    85(1) +=    85] [mg    85(1) <-    85] [mx    86(2) +=    86] [mg    86(2) <-    86] 
+         l <- l         : [tm    29 +=    29]
+[mx    87(0) +=    87] [mg    87(0) <-    87] [mx    88(1) +=    88] [mg    88(1) <-    88] [mx    89(2) +=    89] [mg    89(2) <-    89] 
+         m <- m         : [tm    30 +=    30]
+[mx    90(0) +=    90] [mg    90(0) <-    90] [mx    91(1) +=    91] [mg    91(1) <-    91] [mx    92(2) +=    92] [mg    92(2) <-    92] 
+       m:b <- m:b       : [tm    31 +=    31]
+[mx    93(0) +=    93] [mg    93(0) <-    93] [mx    94(1) +=    94] [mg    94(1) <-    94] [mx    95(2) +=    95] [mg    95(2) <-    95] 
+         n <- n         : [tm    32 +=    32]
+[mx    96(0) +=    96] [mg    96(0) <-    96] [mx    97(1) +=    97] [mg    97(1) <-    97] [mx    98(2) +=    98] [mg    98(2) <-    98] 
+      n:ch <- n:ch      : [tm    33 +=    33]
+[mx    99(0) +=    99] [mg    99(0) <-    99] [mx   100(1) +=   100] [mg   100(1) <-   100] [mx   101(2) +=   101] [mg   101(2) <-   101] 
+       n:d <- n:d       : [tm    34 +=    34]
+[mx   102(0) +=   102] [mg   102(0) <-   102] [mx   103(1) +=   103] [mg   103(1) <-   103] [mx   104(2) +=   104] [mg   104(2) <-   104] 
+      n:d. <- n:d.      : [tm    35 +=    35]
+[mx   105(0) +=   105] [mg   105(0) <-   105] [mx   106(1) +=   106] [mg   106(1) <-   106] [mx   107(2) +=   107] [mg   107(2) <-   107] 
+       n:g <- n:g       : [tm    36 +=    36]
+[mx   108(0) +=   108] [mg   108(0) <-   108] [mx   109(1) +=   109] [mg   109(1) <-   109] [mx   110(2) +=   110] [mg   110(2) <-   110] 
+       n:p <- n:p       : [tm    37 +=    37]
+[mx   111(0) +=   111] [mg   111(0) <-   111] [mx   112(1) +=   112] [mg   112(1) <-   112] [mx   113(2) +=   113] [mg   113(2) <-   113] 
+       nch <- nch       : [tm    38 +=    38]
+[mx   114(0) +=   114] [mg   114(0) <-   114] [mx   115(1) +=   115] [mg   115(1) <-   115] [mx   116(2) +=   116] [mg   116(2) <-   116] 
+        nd <- nd        : [tm    39 +=    39]
+[mx   117(0) +=   117] [mg   117(0) <-   117] [mx   118(1) +=   118] [mg   118(1) <-   118] [mx   119(2) +=   119] [mg   119(2) <-   119] 
+       nd. <- nd.       : [tm    40 +=    40]
+[mx   120(0) +=   120] [mg   120(0) <-   120] [mx   121(1) +=   121] [mg   121(1) <-   121] [mx   122(2) +=   122] [mg   122(2) <-   122] 
+      nt:h <- nt:h      : [tm    41 +=    41]
+[mx   123(0) +=   123] [mg   123(0) <-   123] [mx   124(1) +=   124] [mg   124(1) <-   124] [mx   125(2) +=   125] [mg   125(2) <-   125] 
+         o <- o         : [tm    42 +=    42]
+[mx   126(0) +=   126] [mg   126(0) <-   126] [mx   127(1) +=   127] [mg   127(1) <-   127] [mx   128(2) +=   128] [mg   128(2) <-   128] 
+        oo <- oo        : [tm    43 +=    43]
+[mx   129(0) +=   129] [mg   129(0) <-   129] [mx   130(1) +=   130] [mg   130(1) <-   130] [mx   131(2) +=   131] [mg   131(2) <-   131] 
+         p <- p         : [tm    44 +=    44]
+[mx   132(0) +=   132] [mg   132(0) <-   132] [mx   133(1) +=   133] [mg   133(1) <-   133] [mx   134(2) +=   134] [mg   134(2) <-   134] 
+        ph <- ph        : [tm    45 +=    45]
+[mx   135(0) +=   135] [mg   135(0) <-   135] [mx   136(1) +=   136] [mg   136(1) <-   136] [mx   137(2) +=   137] [mg   137(2) <-   137] 
+      phth <- phth      : [tm    46 +=    46]
+[mx   138(0) +=   138] [mg   138(0) <-   138] [mx   139(1) +=   139] [mg   139(1) <-   139] [mx   140(2) +=   140] [mg   140(2) <-   140] 
+        py <- py        : [tm    47 +=    47]
+[mx   141(0) +=   141] [mg   141(0) <-   141] [mx   142(1) +=   142] [mg   142(1) <-   142] [mx   143(2) +=   143] [mg   143(2) <-   143] 
+         r <- r         : [tm    48 +=    48]
+[mx   144(0) +=   144] [mg   144(0) <-   144] [mx   145(1) +=   145] [mg   145(1) <-   145] [mx   146(2) +=   146] [mg   146(2) <-   146] 
+        r. <- r.        : [tm    49 +=    49]
+[mx   147(0) +=   147] [mg   147(0) <-   147] [mx   148(1) +=   148] [mg   148(1) <-   148] [mx   149(2) +=   149] [mg   149(2) <-   149] 
+       r:e <- r:e       : [tm    50 +=    50]
+[mx   150(0) +=   150] [mg   150(0) <-   150] [mx   151(1) +=   151] [mg   151(1) <-   151] [mx   152(2) +=   152] [mg   152(2) <-   152] 
+       r:g <- r:g       : [tm    51 +=    51]
+[mx   153(0) +=   153] [mg   153(0) <-   153] [mx   154(1) +=   154] [mg   154(1) <-   154] [mx   155(2) +=   155] [mg   155(2) <-   155] 
+        rm <- rm        : [tm    52 +=    52]
+[mx   156(0) +=   156] [mg   156(0) <-   156] [mx   157(1) +=   157] [mg   157(1) <-   157] [mx   158(2) +=   158] [mg   158(2) <-   158] 
+         s <- s         : [tm    53 +=    53]
+[mx   159(0) +=   159] [mg   159(0) <-   159] [mx   160(1) +=   160] [mg   160(1) <-   160] [mx   161(2) +=   161] [mg   161(2) <-   161] 
+        sh <- sh        : [tm    54 +=    54]
+[mx   162(0) +=   162] [mg   162(0) <-   162] [mx   163(1) +=   163] [mg   163(1) <-   163] [mx   164(2) +=   164] [mg   164(2) <-   164] 
+      shth <- shth      : [tm    55 +=    55]
+[mx   165(0) +=   165] [mg   165(0) <-   165] [mx   166(1) +=   166] [mg   166(1) <-   166] [mx   167(2) +=   167] [mg   167(2) <-   167] 
+        sp <- sp        : [tm    56 +=    56]
+[mx   168(0) +=   168] [mg   168(0) <-   168] [mx   169(1) +=   169] [mg   169(1) <-   169] [mx   170(2) +=   170] [mg   170(2) <-   170] 
+         t <- t         : [tm    57 +=    57]
+[mx   171(0) +=   171] [mg   171(0) <-   171] [mx   172(1) +=   172] [mg   172(1) <-   172] [mx   173(2) +=   173] [mg   173(2) <-   173] 
+       t:h <- t:h       : [tm    58 +=    58]
+[mx   174(0) +=   174] [mg   174(0) <-   174] [mx   175(1) +=   175] [mg   175(1) <-   175] [mx   176(2) +=   176] [mg   176(2) <-   176] 
+        th <- th        : [tm    59 +=    59]
+[mx   177(0) +=   177] [mg   177(0) <-   177] [mx   178(1) +=   178] [mg   178(1) <-   178] [mx   179(2) +=   179] [mg   179(2) <-   179] 
+        ti <- ti        : [tm    60 +=    60]
+[mx   180(0) +=   180] [mg   180(0) <-   180] [mx   181(1) +=   181] [mg   181(1) <-   181] [mx   182(2) +=   182] [mg   182(2) <-   182] 
+         u <- u         : [tm    61 +=    61]
+[mx   183(0) +=   183] [mg   183(0) <-   183] [mx   184(1) +=   184] [mg   184(1) <-   184] [mx   185(2) +=   185] [mg   185(2) <-   185] 
+        ul <- ul        : [tm    62 +=    62]
+[mx   186(0) +=   186] [mg   186(0) <-   186] [mx   187(1) +=   187] [mg   187(1) <-   187] [mx   188(2) +=   188] [mg   188(2) <-   188] 
+       uth <- uth       : [tm    63 +=    63]
+[mx   189(0) +=   189] [mg   189(0) <-   189] [mx   190(1) +=   190] [mg   190(1) <-   190] [mx   191(2) +=   191] [mg   191(2) <-   191] 
+        uu <- uu        : [tm    64 +=    64]
+[mx   192(0) +=   192] [mg   192(0) <-   192] [mx   193(1) +=   193] [mg   193(1) <-   193] [mx   194(2) +=   194] [mg   194(2) <-   194] 
+         v <- v         : [tm    65 +=    65]
+[mx   195(0) +=   195] [mg   195(0) <-   195] [mx   196(1) +=   196] [mg   196(1) <-   196] [mx   197(2) +=   197] [mg   197(2) <-   197] 
+         w <- w         : [tm    66 +=    66]
+[mx   198(0) +=   198] [mg   198(0) <-   198] [mx   199(1) +=   199] [mg   199(1) <-   199] [mx   200(2) +=   200] [mg   200(2) <-   200] 
+         y <- y         : [tm    67 +=    67]
+[mx   201(0) +=   201] [mg   201(0) <-   201] [mx   202(1) +=   202] [mg   202(1) <-   202] [mx   203(2) +=   203] [mg   203(2) <-   203] 
+         z <- z         : [tm    68 +=    68]
+[mx   204(0) +=   204] [mg   204(0) <-   204] [mx   205(1) +=   205] [mg   205(1) <-   205] [mx   206(2) +=   206] [mg   206(2) <-   206] 
+I SIL d. b <- I         : [mx   207(0) +=     0] [mg   207(0) <-     0] [mx   208(1) +=     1] [mg   208(1) <-     1] [mx   209(2) +=     2] [mg   209(2) <-     2] 
+ I sp d. b <- I         : 
+a SIL ch b <- a         : [mx   210(0) +=     6] [mg   210(0) <-     6] [mx   211(1) +=     7] [mg   211(1) <-     7] [mx   212(2) +=     8] [mg   212(2) <-     8] 
+a SIL d. b <- a         : 
+ a SIL v b <- a         : 
+   a b g i <- a         : 
+ a b:h r i <- a         : 
+ a b:h t i <- a         : 
+  a ch n i <- a         : 
+   a d h i <- a         : 
+   a d s i <- a         : 
+  a d. l i <- a         : 
+   a h l i <- a         : 
+   a j l i <- a         : 
+   a j r i <- a         : 
+  a k r. i <- a         : 
+ a k:h n i <- a         : 
+  a l ii i <- a         : 
+   a l k i <- a         : 
+   a l w i <- a         : 
+ a m k:h i <- a         : 
+   a m l i <- a         : 
+ a m nch i <- a         : 
+   a m t i <- a         : 
+ a n n:d i <- a         : 
+   a n v i <- a         : 
+ a n:g l i <- a         : 
+ a n:g n i <- a         : 
+   a p k i <- a         : 
+   a p m i <- a         : 
+   a p r i <- a         : 
+  a p r. i <- a         : 
+   a p s i <- a         : 
+   a r s i <- a         : 
+  a r th i <- a         : 
+   a r v i <- a         : 
+   a r y i <- a         : 
+  a r. k i <- a         : 
+   a s m i <- a         : 
+ a s m:b i <- a         : 
+  a s nd i <- a         : 
+ a sp ch b <- a         : 
+ a sp d. b <- a         : 
+  a sp v b <- a         : 
+ a t n:d i <- a         : 
+ a t n:g i <- a         : 
+   a t r i <- a         : 
+  a th n i <- a         : 
+ a th r. i <- a         : 
+ a ul ch i <- a         : 
+  a v d. i <- a         : 
+ a v n:g i <- a         : 
+   a v r i <- a         : 
+   a y l i <- a         : 
+   a y n i <- a         : 
+   a y s i <- a         : 
+  a y th i <- a         : 
+aa SIL l b <- aa        : [mx   213(0) +=     9] [mg   213(0) <-     9] [mx   214(1) +=    10] [mg   214(1) <-    10] [mx   215(2) +=    11] [mg   215(2) <-    11] 
+aa SIL t:h b <- aa        : 
+  aa b d i <- aa        : 
+ aa b th i <- aa        : 
+ aa ch r i <- aa        : 
+aa ch sp i <- aa        : 
+aa ch: sp i <- aa        : 
+  aa d l i <- aa        : 
+aa d. sp i <- aa        : 
+  aa g j i <- aa        : 
+  aa g r i <- aa        : 
+  aa j m i <- aa        : 
+  aa k j i <- aa        : 
+ aa k sp i <- aa        : 
+ aa l ii i <- aa        : 
+  aa l w i <- aa        : 
+ aa m sp i <- aa        : 
+aa m:b r i <- aa        : 
+  aa n n i <- aa        : 
+ aa n sp i <- aa        : 
+aa nd sp i <- aa        : 
+aa nd. sp i <- aa        : 
+aa nt:h sp i <- aa        : 
+  aa p l i <- aa        : 
+aa p n:ch i <- aa        : 
+  aa p p i <- aa        : 
+  aa p y i <- aa        : 
+aa phth sp i <- aa        : 
+ aa py z i <- aa        : 
+aa r nt:h i <- aa        : 
+ aa r sp i <- aa        : 
+  aa r y i <- aa        : 
+aa r. ii i <- aa        : 
+aa r. sp i <- aa        : 
+aa rm sp i <- aa        : 
+  aa s g i <- aa        : 
+ aa s sp i <- aa        : 
+ aa s th i <- aa        : 
+ aa sh h i <- aa        : 
+ aa sp l b <- aa        : 
+aa sp t:h b <- aa        : 
+aa th sp i <- aa        : 
+ aa v sp i <- aa        : 
+ aa w sp i <- aa        : 
+  aa y n i <- aa        : 
+ aaa l b i <- aaa       : [mx   216(0) +=    12] [mg   216(0) <-    12] [mx   217(1) +=    13] [mg   217(1) <-    13] [mx   218(2) +=    14] [mg   218(2) <-    14] 
+aam d sp i <- aam       : [mx   219(0) +=    15] [mg   219(0) <-    15] [mx   220(1) +=    16] [mg   220(1) <-    16] [mx   221(2) +=    17] [mg   221(2) <-    17] 
+ach l ch: i <- ach       : [mx   222(0) +=    18] [mg   222(0) <-    18] [mx   223(1) +=    19] [mg   223(1) <-    19] [mx   224(2) +=    20] [mg   224(2) <-    20] 
+ae b n:g i <- ae        : [mx   225(0) +=    21] [mg   225(0) <-    21] [mx   226(1) +=    22] [mg   226(1) <-    22] [mx   227(2) +=    23] [mg   227(2) <-    23] 
+ae d. sp i <- ae        : 
+ ap th p i <- ap        : [mx   228(0) +=    24] [mg   228(0) <-    24] [mx   229(1) +=    25] [mg   229(1) <-    25] [mx   230(2) +=    26] [mg   230(2) <-    26] 
+  as l s i <- as        : [mx   231(0) +=    27] [mg   231(0) <-    27] [mx   232(1) +=    28] [mg   232(1) <-    28] [mx   233(2) +=    29] [mg   233(2) <-    29] 
+ au n sp i <- au        : [mx   234(0) +=    30] [mg   234(0) <-    30] [mx   235(1) +=    31] [mg   235(1) <-    31] [mx   236(2) +=    32] [mg   236(2) <-    32] 
+ b SIL a b <- b         : [mx   237(0) +=    33] [mg   237(0) <-    33] [mx   238(1) +=    34] [mg   238(1) <-    34] [mx   239(2) +=    35] [mg   239(2) <-    35] 
+b SIL aa b <- b         : 
+b SIL ae b <- b         : 
+ b SIL i b <- b         : 
+ b SIL o b <- b         : 
+ b aaa j i <- b         : 
+  b e aa i <- b         : 
+   b i e i <- b         : 
+ b ii aa i <- b         : 
+  b o ii i <- b         : 
+  b sp a b <- b         : 
+ b sp aa b <- b         : 
+ b sp ae b <- b         : 
+  b sp i b <- b         : 
+  b sp o b <- b         : 
+b:h SIL a b <- b:h       : [mx   240(0) +=    36] [mg   240(0) <-    36] [mx   241(1) +=    37] [mg   241(1) <-    37] [mx   242(2) +=    38] [mg   242(2) <-    38] 
+b:h SIL i b <- b:h       : 
+b:h sp a b <- b:h       : 
+b:h sp i b <- b:h       : 
+c:h SIL o b <- c:h       : [mx   243(0) +=    39] [mg   243(0) <-    39] [mx   244(1) +=    40] [mg   244(1) <-    40] [mx   245(2) +=    41] [mg   245(2) <-    41] 
+c:h sp o b <- c:h       : 
+ch SIL a b <- ch        : [mx   246(0) +=    42] [mg   246(0) <-    42] [mx   247(1) +=    43] [mg   247(1) <-    43] [mx   248(2) +=    44] [mg   248(2) <-    44] 
+ch SIL aa b <- ch        : 
+ch SIL et b <- ch        : 
+ch SIL h b <- ch        : 
+ ch a aa i <- ch        : 
+ ch sp a b <- ch        : 
+ch sp aa b <- ch        : 
+ch sp et b <- ch        : 
+ ch sp h b <- ch        : 
+ch: ach aa i <- ch:       : [mx   249(0) +=    45] [mg   249(0) <-    45] [mx   250(1) +=    46] [mg   250(1) <-    46] [mx   251(2) +=    47] [mg   251(2) <-    47] 
+ d SIL a b <- d         : [mx   252(0) +=    48] [mg   252(0) <-    48] [mx   253(1) +=    49] [mg   253(1) <-    49] [mx   254(2) +=    50] [mg   254(2) <-    50] 
+d SIL aa b <- d         : 
+ d SIL o b <- d         : 
+d aa aam i <- d         : 
+d in: aa i <- d         : 
+  d sp a b <- d         : 
+ d sp aa b <- d         : 
+  d sp o b <- d         : 
+  d u ii i <- d         : 
+  d. I a i <- d.        : [mx   255(0) +=    51] [mg   255(0) <-    51] [mx   256(1) +=    52] [mg   256(1) <-    52] [mx   257(2) +=    53] [mg   257(2) <-    53] 
+d. SIL o b <- d.        : 
+ d. a aa i <- d.        : 
+ d. a ae i <- d.        : 
+ d. sp o b <- d.        : 
+ e SIL k b <- e         : [mx   258(0) +=    54] [mg   258(0) <-    54] [mx   259(1) +=    55] [mg   259(1) <-    55] [mx   260(2) +=    56] [mg   260(2) <-    56] 
+   e b l i <- e         : 
+   e l b i <- e         : 
+  e l sp i <- e         : 
+  e sp k b <- e         : 
+ e v n:p i <- e         : 
+et ch ti i <- et        : [mx   261(0) +=    57] [mg   261(0) <-    57] [mx   262(1) +=    58] [mg   262(1) <-    58] [mx   263(2) +=    59] [mg   263(2) <-    59] 
+g SIL aa b <- g         : [mx   264(0) +=    60] [mg   264(0) <-    60] [mx   265(1) +=    61] [mg   265(1) <-    61] [mx   266(2) +=    62] [mg   266(2) <-    62] 
+ g SIL o b <- g         : 
+g SIL uu b <- g         : 
+  g a aa i <- g         : 
+ g aa sp i <- g         : 
+ g sp aa b <- g         : 
+  g sp o b <- g         : 
+ g sp uu b <- g         : 
+ h SIL a b <- h         : [mx   267(0) +=    63] [mg   267(0) <-    63] [mx   268(1) +=    64] [mg   268(1) <-    64] [mx   269(2) +=    65] [mg   269(2) <-    65] 
+  h a ii i <- h         : 
+ h aa ii i <- h         : 
+ h ch sp i <- h         : 
+  h sp a b <- h         : 
+   i b r i <- i         : [mx   270(0) +=    66] [mg   270(0) <-    66] [mx   271(1) +=    67] [mg   271(1) <-    67] [mx   272(2) +=    68] [mg   272(2) <-    68] 
+   i b s i <- i         : 
+i b:h n:d. i <- i         : 
+   i r y i <- i         : 
+   i s b i <- i         : 
+ ii a sp i <- ii        : [mx   273(0) +=    69] [mg   273(0) <-    69] [mx   274(1) +=    70] [mg   274(1) <-    70] [mx   275(2) +=    71] [mg   275(2) <-    71] 
+ii aa sp i <- ii        : 
+ ii b sp i <- ii        : 
+  ii d n i <- ii        : 
+ ii h sp i <- ii        : 
+  ii k m i <- ii        : 
+ii k:h r i <- ii        : 
+ ii l sp i <- ii        : 
+ ii n sp i <- ii        : 
+ii n:d. sp i <- ii        : 
+ii n:g b i <- ii        : 
+ii ph sp i <- ii        : 
+ ii r sp i <- ii        : 
+ii r. sp i <- ii        : 
+ii s k:h i <- ii        : 
+ ii s sp i <- ii        : 
+ ii t sp i <- ii        : 
+ ii th n i <- ii        : 
+  ii v y i <- ii        : 
+ ii z sp i <- ii        : 
+  ik t k i <- ik        : [mx   276(0) +=    72] [mg   276(0) <-    72] [mx   277(1) +=    73] [mg   277(1) <-    73] [mx   278(2) +=    74] [mg   278(2) <-    74] 
+ in: w d i <- in:       : [mx   279(0) +=    75] [mg   279(0) <-    75] [mx   280(1) +=    76] [mg   280(1) <-    76] [mx   281(2) +=    77] [mg   281(2) <-    77] 
+ j SIL a b <- j         : [mx   282(0) +=    78] [mg   282(0) <-    78] [mx   283(1) +=    79] [mg   283(1) <-    79] [mx   284(2) +=    80] [mg   284(2) <-    80] 
+  j aa a i <- j         : 
+ j aa uu i <- j         : 
+  j b aa i <- j         : 
+  j sp a b <- j         : 
+ k SIL a b <- k         : [mx   285(0) +=    81] [mg   285(0) <-    81] [mx   286(1) +=    82] [mg   286(1) <-    82] [mx   287(2) +=    83] [mg   287(2) <-    83] 
+k SIL aa b <- k         : 
+k SIL ii b <- k         : 
+ k SIL o b <- k         : 
+k SIL oo b <- k         : 
+k SIL ul b <- k         : 
+  k a aa i <- k         : 
+   k a o i <- k         : 
+  k a sp i <- k         : 
+  k e sp i <- k         : 
+ k ik aa i <- k         : 
+  k sp a b <- k         : 
+ k sp aa b <- k         : 
+ k sp ii b <- k         : 
+  k sp o b <- k         : 
+ k sp oo b <- k         : 
+ k sp ul b <- k         : 
+k:h SIL ii b <- k:h       : [mx   288(0) +=    84] [mg   288(0) <-    84] [mx   289(1) +=    85] [mg   289(1) <-    85] [mx   290(2) +=    86] [mg   290(2) <-    86] 
+ k:h a a i <- k:h       : 
+k:h ii sp i <- k:h       : 
+k:h sp ii b <- k:h       : 
+l SIL ach b <- l         : [mx   291(0) +=    87] [mg   291(0) <-    87] [mx   292(1) +=    88] [mg   292(1) <-    88] [mx   293(2) +=    89] [mg   293(2) <-    89] 
+l SIL as b <- l         : 
+   l a a i <- l         : 
+  l a aa i <- l         : 
+  l a ii i <- l         : 
+  l a ph i <- l         : 
+  l a sp i <- l         : 
+  l aa a i <- l         : 
+ l aa sp i <- l         : 
+ l aa uu i <- l         : 
+   l e e i <- l         : 
+   l o e i <- l         : 
+l sp ach b <- l         : 
+ l sp as b <- l         : 
+  l u aa i <- l         : 
+l uu aaa i <- l         : 
+ m SIL a b <- m         : [mx   294(0) +=    90] [mg   294(0) <-    90] [mx   295(1) +=    91] [mg   295(1) <-    91] [mx   296(2) +=    92] [mg   296(2) <-    92] 
+ m SIL u b <- m         : 
+   m a a i <- m         : 
+  m a aa i <- m         : 
+   m a o i <- m         : 
+  m a sp i <- m         : 
+ m aa uu i <- m         : 
+ m ii aa i <- m         : 
+  m sp a b <- m         : 
+  m sp u b <- m         : 
+m:b a aa i <- m:b       : [mx   297(0) +=    93] [mg   297(0) <-    93] [mx   298(1) +=    94] [mg   298(1) <-    94] [mx   299(2) +=    95] [mg   299(2) <-    95] 
+ n SIL a b <- n         : [mx   300(0) +=    96] [mg   300(0) <-    96] [mx   301(1) +=    97] [mg   301(1) <-    97] [mx   302(2) +=    98] [mg   302(2) <-    98] 
+n SIL aa b <- n         : 
+n SIL au b <- n         : 
+  n a aa i <- n         : 
+  n a ii i <- n         : 
+  n a sp i <- n         : 
+ n aa ii i <- n         : 
+ n aa sp i <- n         : 
+ n ii aa i <- n         : 
+ n ii sp i <- n         : 
+  n sp a b <- n         : 
+ n sp aa b <- n         : 
+ n sp au b <- n         : 
+  n ti a i <- n         : 
+ n uu sp i <- n         : 
+n:ch aa sp i <- n:ch      : [mx   303(0) +=    99] [mg   303(0) <-    99] [mx   304(1) +=   100] [mg   304(1) <-   100] [mx   305(2) +=   101] [mg   305(2) <-   101] 
+n:d a oo i <- n:d       : [mx   306(0) +=   102] [mg   306(0) <-   102] [mx   307(1) +=   103] [mg   307(1) <-   103] [mx   308(2) +=   104] [mg   308(2) <-   104] 
+n:d a sp i <- n:d       : 
+n:d. i ii i <- n:d.      : [mx   309(0) +=   105] [mg   309(0) <-   105] [mx   310(1) +=   106] [mg   310(1) <-   106] [mx   311(2) +=   107] [mg   311(2) <-   107] 
+n:g a ii i <- n:g       : [mx   312(0) +=   108] [mg   312(0) <-   108] [mx   313(1) +=   109] [mg   313(1) <-   109] [mx   314(2) +=   110] [mg   314(2) <-   110] 
+n:g a r. i <- n:g       : 
+n:g ae a i <- n:g       : 
+ n:g o a i <- n:g       : 
+ n:p e o i <- n:p       : [mx   315(0) +=   111] [mg   315(0) <-   111] [mx   316(1) +=   112] [mg   316(1) <-   112] [mx   317(2) +=   113] [mg   317(2) <-   113] 
+nch a uu i <- nch       : [mx   318(0) +=   114] [mg   318(0) <-   114] [mx   319(1) +=   115] [mg   319(1) <-   115] [mx   320(2) +=   116] [mg   320(2) <-   116] 
+ nd a aa i <- nd        : [mx   321(0) +=   117] [mg   321(0) <-   117] [mx   322(1) +=   118] [mg   322(1) <-   118] [mx   323(2) +=   119] [mg   323(2) <-   119] 
+nd. o aa i <- nd.       : [mx   324(0) +=   120] [mg   324(0) <-   120] [mx   325(1) +=   121] [mg   325(1) <-   121] [mx   326(2) +=   122] [mg   326(2) <-   122] 
+nt:h aa aa i <- nt:h      : [mx   327(0) +=   123] [mg   327(0) <-   123] [mx   328(1) +=   124] [mg   328(1) <-   124] [mx   329(2) +=   125] [mg   329(2) <-   125] 
+ o b nd. i <- o         : [mx   330(0) +=   126] [mg   330(0) <-   126] [mx   331(1) +=   127] [mg   331(1) <-   127] [mx   332(2) +=   128] [mg   332(2) <-   128] 
+   o b t i <- o         : 
+ o c:h l i <- o         : 
+  o d py i <- o         : 
+  o d sp i <- o         : 
+  o d. s i <- o         : 
+   o g b i <- o         : 
+o g shth i <- o         : 
+o k phth i <- o         : 
+  o k r. i <- o         : 
+   o m s i <- o         : 
+o n:p n:g i <- o         : 
+   o r t i <- o         : 
+ oo k rm i <- oo        : [mx   333(0) +=   129] [mg   333(0) <-   129] [mx   334(1) +=   130] [mg   334(1) <-   130] [mx   335(2) +=   131] [mg   335(2) <-   131] 
+oo n:d r i <- oo        : 
+ p SIL a b <- p         : [mx   336(0) +=   132] [mg   336(0) <-   132] [mx   337(1) +=   133] [mg   337(1) <-   133] [mx   338(2) +=   134] [mg   338(2) <-   134] 
+p SIL aa b <- p         : 
+ p SIL u b <- p         : 
+p SIL uu b <- p         : 
+  p aa a i <- p         : 
+  p ap a i <- p         : 
+  p sp a b <- p         : 
+ p sp aa b <- p         : 
+  p sp u b <- p         : 
+ p sp uu b <- p         : 
+   p u a i <- p         : 
+ph l r:e i <- ph        : [mx   339(0) +=   135] [mg   339(0) <-   135] [mx   340(1) +=   136] [mg   340(1) <-   136] [mx   341(2) +=   137] [mg   341(2) <-   137] 
+ph ul ii i <- ph        : 
+phth o aa i <- phth      : [mx   342(0) +=   138] [mg   342(0) <-   138] [mx   343(1) +=   139] [mg   343(1) <-   139] [mx   344(2) +=   140] [mg   344(2) <-   140] 
+ py o aa i <- py        : [mx   345(0) +=   141] [mg   345(0) <-   141] [mx   346(1) +=   142] [mg   346(1) <-   142] [mx   347(2) +=   143] [mg   347(2) <-   143] 
+ r SIL a b <- r         : [mx   348(0) +=   144] [mg   348(0) <-   144] [mx   349(1) +=   145] [mg   349(1) <-   145] [mx   350(2) +=   146] [mg   350(2) <-   146] 
+r SIL aa b <- r         : 
+ r SIL o b <- r         : 
+   r a a i <- r         : 
+  r a aa i <- r         : 
+  r a sp i <- r         : 
+ r aa aa i <- r         : 
+ r aa sp i <- r         : 
+   r i a i <- r         : 
+ r ii sp i <- r         : 
+ r oo sp i <- r         : 
+  r sp a b <- r         : 
+ r sp aa b <- r         : 
+  r sp o b <- r         : 
+ r uu aa i <- r         : 
+  r uu i i <- r         : 
+ r uu ii i <- r         : 
+  r. a a i <- r.        : [mx   351(0) +=   147] [mg   351(0) <-   147] [mx   352(1) +=   148] [mg   352(1) <-   148] [mx   353(2) +=   149] [mg   353(2) <-   149] 
+ r. a aa i <- r.        : 
+ r. a sp i <- r.        : 
+r. n:g ii i <- r.        : 
+ r. o aa i <- r.        : 
+r:e ph z i <- r:e       : [mx   354(0) +=   150] [mg   354(0) <-   150] [mx   355(1) +=   151] [mg   355(1) <-   151] [mx   356(2) +=   152] [mg   356(2) <-   152] 
+r:g u sp i <- r:g       : [mx   357(0) +=   153] [mg   357(0) <-   153] [mx   358(1) +=   154] [mg   358(1) <-   154] [mx   359(2) +=   155] [mg   359(2) <-   155] 
+rm oo aa i <- rm        : [mx   360(0) +=   156] [mg   360(0) <-   156] [mx   361(1) +=   157] [mg   361(1) <-   157] [mx   362(2) +=   158] [mg   362(2) <-   158] 
+ s SIL a b <- s         : [mx   363(0) +=   159] [mg   363(0) <-   159] [mx   364(1) +=   160] [mg   364(1) <-   160] [mx   365(2) +=   161] [mg   365(2) <-   161] 
+s SIL aa b <- s         : 
+s SIL ii b <- s         : 
+   s a a i <- s         : 
+  s a sp i <- s         : 
+ s as ii i <- s         : 
+   s i i i <- s         : 
+  s o aa i <- s         : 
+  s sp a b <- s         : 
+ s sp aa b <- s         : 
+ s sp ii b <- s         : 
+sh SIL aa b <- sh        : [mx   366(0) +=   162] [mg   366(0) <-   162] [mx   367(1) +=   163] [mg   367(1) <-   163] [mx   368(2) +=   164] [mg   368(2) <-   164] 
+sh sp aa b <- sh        : 
+shth o sp i <- shth      : [mx   369(0) +=   165] [mg   369(0) <-   165] [mx   370(1) +=   166] [mg   370(1) <-   166] [mx   371(2) +=   167] [mg   371(2) <-   167] 
+ sp aa I e <- sp        : [mx   372(0) +=   168] [mg   372(0) <-   168] [mx   373(1) +=   169] [mg   373(1) <-   169] [mx   374(2) +=   170] [mg   374(2) <-   170] 
+sp aa SIL e <- sp        : 
+ sp aa a e <- sp        : 
+sp aa aa e <- sp        : 
+ sp aa b e <- sp        : 
+sp aa b:h e <- sp        : 
+sp aa c:h e <- sp        : 
+sp aa ch e <- sp        : 
+ sp aa d e <- sp        : 
+sp aa d. e <- sp        : 
+ sp aa e e <- sp        : 
+ sp aa g e <- sp        : 
+ sp aa h e <- sp        : 
+ sp aa j e <- sp        : 
+ sp aa k e <- sp        : 
+sp aa k:h e <- sp        : 
+ sp aa l e <- sp        : 
+ sp aa m e <- sp        : 
+ sp aa n e <- sp        : 
+ sp aa p e <- sp        : 
+ sp aa r e <- sp        : 
+ sp aa s e <- sp        : 
+sp aa sh e <- sp        : 
+ sp aa t e <- sp        : 
+sp aa th e <- sp        : 
+ sp aa u e <- sp        : 
+sp aa uth e <- sp        : 
+ sp aa v e <- sp        : 
+ sp aa w e <- sp        : 
+sp aam I e <- sp        : 
+sp aam SIL e <- sp        : 
+sp aam a e <- sp        : 
+sp aam aa e <- sp        : 
+sp aam b e <- sp        : 
+sp aam b:h e <- sp        : 
+sp aam c:h e <- sp        : 
+sp aam ch e <- sp        : 
+sp aam d e <- sp        : 
+sp aam d. e <- sp        : 
+sp aam e e <- sp        : 
+sp aam g e <- sp        : 
+sp aam h e <- sp        : 
+sp aam j e <- sp        : 
+sp aam k e <- sp        : 
+sp aam k:h e <- sp        : 
+sp aam l e <- sp        : 
+sp aam m e <- sp        : 
+sp aam n e <- sp        : 
+sp aam p e <- sp        : 
+sp aam r e <- sp        : 
+sp aam s e <- sp        : 
+sp aam sh e <- sp        : 
+sp aam t e <- sp        : 
+sp aam th e <- sp        : 
+sp aam u e <- sp        : 
+sp aam uth e <- sp        : 
+sp aam v e <- sp        : 
+sp aam w e <- sp        : 
+ sp ae I e <- sp        : 
+sp ae SIL e <- sp        : 
+ sp ae a e <- sp        : 
+sp ae aa e <- sp        : 
+ sp ae b e <- sp        : 
+sp ae b:h e <- sp        : 
+sp ae c:h e <- sp        : 
+sp ae ch e <- sp        : 
+ sp ae d e <- sp        : 
+sp ae d. e <- sp        : 
+ sp ae e e <- sp        : 
+ sp ae g e <- sp        : 
+ sp ae h e <- sp        : 
+ sp ae j e <- sp        : 
+ sp ae k e <- sp        : 
+sp ae k:h e <- sp        : 
+ sp ae l e <- sp        : 
+ sp ae m e <- sp        : 
+ sp ae n e <- sp        : 
+ sp ae p e <- sp        : 
+ sp ae r e <- sp        : 
+ sp ae s e <- sp        : 
+sp ae sh e <- sp        : 
+ sp ae t e <- sp        : 
+sp ae th e <- sp        : 
+ sp ae u e <- sp        : 
+sp ae uth e <- sp        : 
+ sp ae v e <- sp        : 
+ sp ae w e <- sp        : 
+ sp au I e <- sp        : 
+sp au SIL e <- sp        : 
+ sp au a e <- sp        : 
+sp au aa e <- sp        : 
+ sp au b e <- sp        : 
+sp au b:h e <- sp        : 
+sp au c:h e <- sp        : 
+sp au ch e <- sp        : 
+ sp au d e <- sp        : 
+sp au d. e <- sp        : 
+ sp au e e <- sp        : 
+ sp au g e <- sp        : 
+ sp au h e <- sp        : 
+ sp au j e <- sp        : 
+ sp au k e <- sp        : 
+sp au k:h e <- sp        : 
+ sp au l e <- sp        : 
+ sp au m e <- sp        : 
+ sp au n e <- sp        : 
+ sp au p e <- sp        : 
+ sp au r e <- sp        : 
+ sp au s e <- sp        : 
+sp au sh e <- sp        : 
+ sp au t e <- sp        : 
+sp au th e <- sp        : 
+ sp au u e <- sp        : 
+sp au uth e <- sp        : 
+ sp au v e <- sp        : 
+ sp au w e <- sp        : 
+  sp e I e <- sp        : 
+sp e SIL e <- sp        : 
+  sp e a e <- sp        : 
+ sp e aa e <- sp        : 
+  sp e b e <- sp        : 
+sp e b:h e <- sp        : 
+sp e c:h e <- sp        : 
+ sp e ch e <- sp        : 
+  sp e d e <- sp        : 
+ sp e d. e <- sp        : 
+  sp e e e <- sp        : 
+  sp e g e <- sp        : 
+  sp e h e <- sp        : 
+  sp e j e <- sp        : 
+  sp e k e <- sp        : 
+sp e k:h e <- sp        : 
+  sp e l e <- sp        : 
+  sp e m e <- sp        : 
+  sp e n e <- sp        : 
+  sp e p e <- sp        : 
+  sp e r e <- sp        : 
+  sp e s e <- sp        : 
+ sp e sh e <- sp        : 
+  sp e t e <- sp        : 
+ sp e th e <- sp        : 
+  sp e u e <- sp        : 
+sp e uth e <- sp        : 
+  sp e v e <- sp        : 
+  sp e w e <- sp        : 
+  sp g I e <- sp        : 
+sp g SIL e <- sp        : 
+  sp g a e <- sp        : 
+ sp g aa e <- sp        : 
+  sp g b e <- sp        : 
+sp g b:h e <- sp        : 
+sp g c:h e <- sp        : 
+ sp g ch e <- sp        : 
+  sp g d e <- sp        : 
+ sp g d. e <- sp        : 
+  sp g e e <- sp        : 
+  sp g g e <- sp        : 
+  sp g h e <- sp        : 
+  sp g j e <- sp        : 
+  sp g k e <- sp        : 
+sp g k:h e <- sp        : 
+  sp g l e <- sp        : 
+  sp g m e <- sp        : 
+  sp g n e <- sp        : 
+  sp g p e <- sp        : 
+  sp g r e <- sp        : 
+  sp g s e <- sp        : 
+ sp g sh e <- sp        : 
+  sp g t e <- sp        : 
+ sp g th e <- sp        : 
+  sp g u e <- sp        : 
+sp g uth e <- sp        : 
+  sp g v e <- sp        : 
+  sp g w e <- sp        : 
+  sp h I e <- sp        : 
+sp h SIL e <- sp        : 
+  sp h a e <- sp        : 
+ sp h aa e <- sp        : 
+  sp h b e <- sp        : 
+sp h b:h e <- sp        : 
+sp h c:h e <- sp        : 
+ sp h ch e <- sp        : 
+  sp h d e <- sp        : 
+ sp h d. e <- sp        : 
+  sp h e e <- sp        : 
+  sp h g e <- sp        : 
+  sp h h e <- sp        : 
+  sp h j e <- sp        : 
+  sp h k e <- sp        : 
+sp h k:h e <- sp        : 
+  sp h l e <- sp        : 
+  sp h m e <- sp        : 
+  sp h n e <- sp        : 
+  sp h p e <- sp        : 
+  sp h r e <- sp        : 
+  sp h s e <- sp        : 
+ sp h sh e <- sp        : 
+  sp h t e <- sp        : 
+ sp h th e <- sp        : 
+  sp h u e <- sp        : 
+sp h uth e <- sp        : 
+  sp h v e <- sp        : 
+  sp h w e <- sp        : 
+ sp ii I e <- sp        : 
+sp ii SIL e <- sp        : 
+ sp ii a e <- sp        : 
+sp ii aa e <- sp        : 
+ sp ii b e <- sp        : 
+sp ii b:h e <- sp        : 
+sp ii c:h e <- sp        : 
+sp ii ch e <- sp        : 
+ sp ii d e <- sp        : 
+sp ii d. e <- sp        : 
+ sp ii e e <- sp        : 
+ sp ii g e <- sp        : 
+ sp ii h e <- sp        : 
+ sp ii j e <- sp        : 
+ sp ii k e <- sp        : 
+sp ii k:h e <- sp        : 
+ sp ii l e <- sp        : 
+ sp ii m e <- sp        : 
+ sp ii n e <- sp        : 
+ sp ii p e <- sp        : 
+ sp ii r e <- sp        : 
+ sp ii s e <- sp        : 
+sp ii sh e <- sp        : 
+ sp ii t e <- sp        : 
+sp ii th e <- sp        : 
+ sp ii u e <- sp        : 
+sp ii uth e <- sp        : 
+ sp ii v e <- sp        : 
+ sp ii w e <- sp        : 
+  sp k I e <- sp        : 
+sp k SIL e <- sp        : 
+  sp k a e <- sp        : 
+ sp k aa e <- sp        : 
+  sp k b e <- sp        : 
+sp k b:h e <- sp        : 
+sp k c:h e <- sp        : 
+ sp k ch e <- sp        : 
+  sp k d e <- sp        : 
+ sp k d. e <- sp        : 
+  sp k e e <- sp        : 
+  sp k g e <- sp        : 
+  sp k h e <- sp        : 
+  sp k j e <- sp        : 
+  sp k k e <- sp        : 
+sp k k:h e <- sp        : 
+  sp k l e <- sp        : 
+  sp k m e <- sp        : 
+  sp k n e <- sp        : 
+  sp k p e <- sp        : 
+  sp k r e <- sp        : 
+  sp k s e <- sp        : 
+ sp k sh e <- sp        : 
+  sp k t e <- sp        : 
+ sp k th e <- sp        : 
+  sp k u e <- sp        : 
+sp k uth e <- sp        : 
+  sp k v e <- sp        : 
+  sp k w e <- sp        : 
+sp k:h I e <- sp        : 
+sp k:h SIL e <- sp        : 
+sp k:h a e <- sp        : 
+sp k:h aa e <- sp        : 
+sp k:h b e <- sp        : 
+sp k:h b:h e <- sp        : 
+sp k:h c:h e <- sp        : 
+sp k:h ch e <- sp        : 
+sp k:h d e <- sp        : 
+sp k:h d. e <- sp        : 
+sp k:h e e <- sp        : 
+sp k:h g e <- sp        : 
+sp k:h h e <- sp        : 
+sp k:h j e <- sp        : 
+sp k:h k e <- sp        : 
+sp k:h k:h e <- sp        : 
+sp k:h l e <- sp        : 
+sp k:h m e <- sp        : 
+sp k:h n e <- sp        : 
+sp k:h p e <- sp        : 
+sp k:h r e <- sp        : 
+sp k:h s e <- sp        : 
+sp k:h sh e <- sp        : 
+sp k:h t e <- sp        : 
+sp k:h th e <- sp        : 
+sp k:h u e <- sp        : 
+sp k:h uth e <- sp        : 
+sp k:h v e <- sp        : 
+sp k:h w e <- sp        : 
+  sp l I e <- sp        : 
+sp l SIL e <- sp        : 
+  sp l a e <- sp        : 
+ sp l aa e <- sp        : 
+  sp l b e <- sp        : 
+sp l b:h e <- sp        : 
+sp l c:h e <- sp        : 
+ sp l ch e <- sp        : 
+  sp l d e <- sp        : 
+ sp l d. e <- sp        : 
+  sp l e e <- sp        : 
+  sp l g e <- sp        : 
+  sp l h e <- sp        : 
+  sp l j e <- sp        : 
+  sp l k e <- sp        : 
+sp l k:h e <- sp        : 
+  sp l l e <- sp        : 
+  sp l m e <- sp        : 
+  sp l n e <- sp        : 
+  sp l p e <- sp        : 
+  sp l r e <- sp        : 
+  sp l s e <- sp        : 
+ sp l sh e <- sp        : 
+  sp l t e <- sp        : 
+ sp l th e <- sp        : 
+  sp l u e <- sp        : 
+sp l uth e <- sp        : 
+  sp l v e <- sp        : 
+  sp l w e <- sp        : 
+  sp m I e <- sp        : 
+sp m SIL e <- sp        : 
+  sp m a e <- sp        : 
+ sp m aa e <- sp        : 
+  sp m b e <- sp        : 
+sp m b:h e <- sp        : 
+sp m c:h e <- sp        : 
+ sp m ch e <- sp        : 
+  sp m d e <- sp        : 
+ sp m d. e <- sp        : 
+  sp m e e <- sp        : 
+  sp m g e <- sp        : 
+  sp m h e <- sp        : 
+  sp m j e <- sp        : 
+  sp m k e <- sp        : 
+sp m k:h e <- sp        : 
+  sp m l e <- sp        : 
+  sp m m e <- sp        : 
+  sp m n e <- sp        : 
+  sp m p e <- sp        : 
+  sp m r e <- sp        : 
+  sp m s e <- sp        : 
+ sp m sh e <- sp        : 
+  sp m t e <- sp        : 
+ sp m th e <- sp        : 
+  sp m u e <- sp        : 
+sp m uth e <- sp        : 
+  sp m v e <- sp        : 
+  sp m w e <- sp        : 
+  sp n I e <- sp        : 
+sp n SIL e <- sp        : 
+  sp n a e <- sp        : 
+ sp n aa e <- sp        : 
+  sp n b e <- sp        : 
+sp n b:h e <- sp        : 
+sp n c:h e <- sp        : 
+ sp n ch e <- sp        : 
+  sp n d e <- sp        : 
+ sp n d. e <- sp        : 
+  sp n e e <- sp        : 
+  sp n g e <- sp        : 
+  sp n h e <- sp        : 
+  sp n j e <- sp        : 
+  sp n k e <- sp        : 
+sp n k:h e <- sp        : 
+  sp n l e <- sp        : 
+  sp n m e <- sp        : 
+  sp n n e <- sp        : 
+  sp n p e <- sp        : 
+  sp n r e <- sp        : 
+  sp n s e <- sp        : 
+ sp n sh e <- sp        : 
+  sp n t e <- sp        : 
+ sp n th e <- sp        : 
+  sp n u e <- sp        : 
+sp n uth e <- sp        : 
+  sp n v e <- sp        : 
+  sp n w e <- sp        : 
+sp n:ch I e <- sp        : 
+sp n:ch SIL e <- sp        : 
+sp n:ch a e <- sp        : 
+sp n:ch aa e <- sp        : 
+sp n:ch b e <- sp        : 
+sp n:ch b:h e <- sp        : 
+sp n:ch c:h e <- sp        : 
+sp n:ch ch e <- sp        : 
+sp n:ch d e <- sp        : 
+sp n:ch d. e <- sp        : 
+sp n:ch e e <- sp        : 
+sp n:ch g e <- sp        : 
+sp n:ch h e <- sp        : 
+sp n:ch j e <- sp        : 
+sp n:ch k e <- sp        : 
+sp n:ch k:h e <- sp        : 
+sp n:ch l e <- sp        : 
+sp n:ch m e <- sp        : 
+sp n:ch n e <- sp        : 
+sp n:ch p e <- sp        : 
+sp n:ch r e <- sp        : 
+sp n:ch s e <- sp        : 
+sp n:ch sh e <- sp        : 
+sp n:ch t e <- sp        : 
+sp n:ch th e <- sp        : 
+sp n:ch u e <- sp        : 
+sp n:ch uth e <- sp        : 
+sp n:ch v e <- sp        : 
+sp n:ch w e <- sp        : 
+sp n:d I e <- sp        : 
+sp n:d SIL e <- sp        : 
+sp n:d a e <- sp        : 
+sp n:d aa e <- sp        : 
+sp n:d b e <- sp        : 
+sp n:d b:h e <- sp        : 
+sp n:d c:h e <- sp        : 
+sp n:d ch e <- sp        : 
+sp n:d d e <- sp        : 
+sp n:d d. e <- sp        : 
+sp n:d e e <- sp        : 
+sp n:d g e <- sp        : 
+sp n:d h e <- sp        : 
+sp n:d j e <- sp        : 
+sp n:d k e <- sp        : 
+sp n:d k:h e <- sp        : 
+sp n:d l e <- sp        : 
+sp n:d m e <- sp        : 
+sp n:d n e <- sp        : 
+sp n:d p e <- sp        : 
+sp n:d r e <- sp        : 
+sp n:d s e <- sp        : 
+sp n:d sh e <- sp        : 
+sp n:d t e <- sp        : 
+sp n:d th e <- sp        : 
+sp n:d u e <- sp        : 
+sp n:d uth e <- sp        : 
+sp n:d v e <- sp        : 
+sp n:d w e <- sp        : 
+  sp o I e <- sp        : 
+sp o SIL e <- sp        : 
+  sp o a e <- sp        : 
+ sp o aa e <- sp        : 
+  sp o b e <- sp        : 
+sp o b:h e <- sp        : 
+sp o c:h e <- sp        : 
+ sp o ch e <- sp        : 
+  sp o d e <- sp        : 
+ sp o d. e <- sp        : 
+  sp o e e <- sp        : 
+  sp o g e <- sp        : 
+  sp o h e <- sp        : 
+  sp o j e <- sp        : 
+  sp o k e <- sp        : 
+sp o k:h e <- sp        : 
+  sp o l e <- sp        : 
+  sp o m e <- sp        : 
+  sp o n e <- sp        : 
+  sp o p e <- sp        : 
+  sp o r e <- sp        : 
+  sp o s e <- sp        : 
+ sp o sh e <- sp        : 
+  sp o t e <- sp        : 
+ sp o th e <- sp        : 
+  sp o u e <- sp        : 
+sp o uth e <- sp        : 
+  sp o v e <- sp        : 
+  sp o w e <- sp        : 
+  sp r I e <- sp        : 
+sp r SIL e <- sp        : 
+  sp r a e <- sp        : 
+ sp r aa e <- sp        : 
+  sp r b e <- sp        : 
+sp r b:h e <- sp        : 
+sp r c:h e <- sp        : 
+ sp r ch e <- sp        : 
+  sp r d e <- sp        : 
+ sp r d. e <- sp        : 
+  sp r e e <- sp        : 
+  sp r g e <- sp        : 
+  sp r h e <- sp        : 
+  sp r j e <- sp        : 
+  sp r k e <- sp        : 
+sp r k:h e <- sp        : 
+  sp r l e <- sp        : 
+  sp r m e <- sp        : 
+  sp r n e <- sp        : 
+  sp r p e <- sp        : 
+  sp r r e <- sp        : 
+  sp r s e <- sp        : 
+ sp r sh e <- sp        : 
+  sp r t e <- sp        : 
+ sp r th e <- sp        : 
+  sp r u e <- sp        : 
+sp r uth e <- sp        : 
+  sp r v e <- sp        : 
+  sp r w e <- sp        : 
+ sp r. I e <- sp        : 
+sp r. SIL e <- sp        : 
+ sp r. a e <- sp        : 
+sp r. aa e <- sp        : 
+ sp r. b e <- sp        : 
+sp r. b:h e <- sp        : 
+sp r. c:h e <- sp        : 
+sp r. ch e <- sp        : 
+ sp r. d e <- sp        : 
+sp r. d. e <- sp        : 
+ sp r. e e <- sp        : 
+ sp r. g e <- sp        : 
+ sp r. h e <- sp        : 
+ sp r. j e <- sp        : 
+ sp r. k e <- sp        : 
+sp r. k:h e <- sp        : 
+ sp r. l e <- sp        : 
+ sp r. m e <- sp        : 
+ sp r. n e <- sp        : 
+ sp r. p e <- sp        : 
+ sp r. r e <- sp        : 
+ sp r. s e <- sp        : 
+sp r. sh e <- sp        : 
+ sp r. t e <- sp        : 
+sp r. th e <- sp        : 
+ sp r. u e <- sp        : 
+sp r. uth e <- sp        : 
+ sp r. v e <- sp        : 
+ sp r. w e <- sp        : 
+sp r:g I e <- sp        : 
+sp r:g SIL e <- sp        : 
+sp r:g a e <- sp        : 
+sp r:g aa e <- sp        : 
+sp r:g b e <- sp        : 
+sp r:g b:h e <- sp        : 
+sp r:g c:h e <- sp        : 
+sp r:g ch e <- sp        : 
+sp r:g d e <- sp        : 
+sp r:g d. e <- sp        : 
+sp r:g e e <- sp        : 
+sp r:g g e <- sp        : 
+sp r:g h e <- sp        : 
+sp r:g j e <- sp        : 
+sp r:g k e <- sp        : 
+sp r:g k:h e <- sp        : 
+sp r:g l e <- sp        : 
+sp r:g m e <- sp        : 
+sp r:g n e <- sp        : 
+sp r:g p e <- sp        : 
+sp r:g r e <- sp        : 
+sp r:g s e <- sp        : 
+sp r:g sh e <- sp        : 
+sp r:g t e <- sp        : 
+sp r:g th e <- sp        : 
+sp r:g u e <- sp        : 
+sp r:g uth e <- sp        : 
+sp r:g v e <- sp        : 
+sp r:g w e <- sp        : 
+  sp s I e <- sp        : 
+sp s SIL e <- sp        : 
+  sp s a e <- sp        : 
+ sp s aa e <- sp        : 
+  sp s b e <- sp        : 
+sp s b:h e <- sp        : 
+sp s c:h e <- sp        : 
+ sp s ch e <- sp        : 
+  sp s d e <- sp        : 
+ sp s d. e <- sp        : 
+  sp s e e <- sp        : 
+  sp s g e <- sp        : 
+  sp s h e <- sp        : 
+  sp s j e <- sp        : 
+  sp s k e <- sp        : 
+sp s k:h e <- sp        : 
+  sp s l e <- sp        : 
+  sp s m e <- sp        : 
+  sp s n e <- sp        : 
+  sp s p e <- sp        : 
+  sp s r e <- sp        : 
+  sp s s e <- sp        : 
+ sp s sh e <- sp        : 
+  sp s t e <- sp        : 
+ sp s th e <- sp        : 
+  sp s u e <- sp        : 
+sp s uth e <- sp        : 
+  sp s v e <- sp        : 
+  sp s w e <- sp        : 
+sp shth I e <- sp        : 
+sp shth SIL e <- sp        : 
+sp shth a e <- sp        : 
+sp shth aa e <- sp        : 
+sp shth b e <- sp        : 
+sp shth b:h e <- sp        : 
+sp shth c:h e <- sp        : 
+sp shth ch e <- sp        : 
+sp shth d e <- sp        : 
+sp shth d. e <- sp        : 
+sp shth e e <- sp        : 
+sp shth g e <- sp        : 
+sp shth h e <- sp        : 
+sp shth j e <- sp        : 
+sp shth k e <- sp        : 
+sp shth k:h e <- sp        : 
+sp shth l e <- sp        : 
+sp shth m e <- sp        : 
+sp shth n e <- sp        : 
+sp shth p e <- sp        : 
+sp shth r e <- sp        : 
+sp shth s e <- sp        : 
+sp shth sh e <- sp        : 
+sp shth t e <- sp        : 
+sp shth th e <- sp        : 
+sp shth u e <- sp        : 
+sp shth uth e <- sp        : 
+sp shth v e <- sp        : 
+sp shth w e <- sp        : 
+sp t:h I e <- sp        : 
+sp t:h SIL e <- sp        : 
+sp t:h a e <- sp        : 
+sp t:h aa e <- sp        : 
+sp t:h b e <- sp        : 
+sp t:h b:h e <- sp        : 
+sp t:h c:h e <- sp        : 
+sp t:h ch e <- sp        : 
+sp t:h d e <- sp        : 
+sp t:h d. e <- sp        : 
+sp t:h e e <- sp        : 
+sp t:h g e <- sp        : 
+sp t:h h e <- sp        : 
+sp t:h j e <- sp        : 
+sp t:h k e <- sp        : 
+sp t:h k:h e <- sp        : 
+sp t:h l e <- sp        : 
+sp t:h m e <- sp        : 
+sp t:h n e <- sp        : 
+sp t:h p e <- sp        : 
+sp t:h r e <- sp        : 
+sp t:h s e <- sp        : 
+sp t:h sh e <- sp        : 
+sp t:h t e <- sp        : 
+sp t:h th e <- sp        : 
+sp t:h u e <- sp        : 
+sp t:h uth e <- sp        : 
+sp t:h v e <- sp        : 
+sp t:h w e <- sp        : 
+ sp th I e <- sp        : 
+sp th SIL e <- sp        : 
+ sp th a e <- sp        : 
+sp th aa e <- sp        : 
+ sp th b e <- sp        : 
+sp th b:h e <- sp        : 
+sp th c:h e <- sp        : 
+sp th ch e <- sp        : 
+ sp th d e <- sp        : 
+sp th d. e <- sp        : 
+ sp th e e <- sp        : 
+ sp th g e <- sp        : 
+ sp th h e <- sp        : 
+ sp th j e <- sp        : 
+ sp th k e <- sp        : 
+sp th k:h e <- sp        : 
+ sp th l e <- sp        : 
+ sp th m e <- sp        : 
+ sp th n e <- sp        : 
+ sp th p e <- sp        : 
+ sp th r e <- sp        : 
+ sp th s e <- sp        : 
+sp th sh e <- sp        : 
+ sp th t e <- sp        : 
+sp th th e <- sp        : 
+ sp th u e <- sp        : 
+sp th uth e <- sp        : 
+ sp th v e <- sp        : 
+ sp th w e <- sp        : 
+ sp uu I e <- sp        : 
+sp uu SIL e <- sp        : 
+ sp uu a e <- sp        : 
+sp uu aa e <- sp        : 
+ sp uu b e <- sp        : 
+sp uu b:h e <- sp        : 
+sp uu c:h e <- sp        : 
+sp uu ch e <- sp        : 
+ sp uu d e <- sp        : 
+sp uu d. e <- sp        : 
+ sp uu e e <- sp        : 
+ sp uu g e <- sp        : 
+ sp uu h e <- sp        : 
+ sp uu j e <- sp        : 
+ sp uu k e <- sp        : 
+sp uu k:h e <- sp        : 
+ sp uu l e <- sp        : 
+ sp uu m e <- sp        : 
+ sp uu n e <- sp        : 
+ sp uu p e <- sp        : 
+ sp uu r e <- sp        : 
+ sp uu s e <- sp        : 
+sp uu sh e <- sp        : 
+ sp uu t e <- sp        : 
+sp uu th e <- sp        : 
+ sp uu u e <- sp        : 
+sp uu uth e <- sp        : 
+ sp uu v e <- sp        : 
+ sp uu w e <- sp        : 
+  sp w I e <- sp        : 
+sp w SIL e <- sp        : 
+  sp w a e <- sp        : 
+ sp w aa e <- sp        : 
+  sp w b e <- sp        : 
+sp w b:h e <- sp        : 
+sp w c:h e <- sp        : 
+ sp w ch e <- sp        : 
+  sp w d e <- sp        : 
+ sp w d. e <- sp        : 
+  sp w e e <- sp        : 
+  sp w g e <- sp        : 
+  sp w h e <- sp        : 
+  sp w j e <- sp        : 
+  sp w k e <- sp        : 
+sp w k:h e <- sp        : 
+  sp w l e <- sp        : 
+  sp w m e <- sp        : 
+  sp w n e <- sp        : 
+  sp w p e <- sp        : 
+  sp w r e <- sp        : 
+  sp w s e <- sp        : 
+ sp w sh e <- sp        : 
+  sp w t e <- sp        : 
+ sp w th e <- sp        : 
+  sp w u e <- sp        : 
+sp w uth e <- sp        : 
+  sp w v e <- sp        : 
+  sp w w e <- sp        : 
+  sp z I e <- sp        : 
+sp z SIL e <- sp        : 
+  sp z a e <- sp        : 
+ sp z aa e <- sp        : 
+  sp z b e <- sp        : 
+sp z b:h e <- sp        : 
+sp z c:h e <- sp        : 
+ sp z ch e <- sp        : 
+  sp z d e <- sp        : 
+ sp z d. e <- sp        : 
+  sp z e e <- sp        : 
+  sp z g e <- sp        : 
+  sp z h e <- sp        : 
+  sp z j e <- sp        : 
+  sp z k e <- sp        : 
+sp z k:h e <- sp        : 
+  sp z l e <- sp        : 
+  sp z m e <- sp        : 
+  sp z n e <- sp        : 
+  sp z p e <- sp        : 
+  sp z r e <- sp        : 
+  sp z s e <- sp        : 
+ sp z sh e <- sp        : 
+  sp z t e <- sp        : 
+ sp z th e <- sp        : 
+  sp z u e <- sp        : 
+sp z uth e <- sp        : 
+  sp z v e <- sp        : 
+  sp z w e <- sp        : 
+ t SIL a b <- t         : [mx   375(0) +=   171] [mg   375(0) <-   171] [mx   376(1) +=   172] [mg   376(1) <-   172] [mx   377(2) +=   173] [mg   377(2) <-   173] 
+t SIL ik b <- t         : 
+   t a a i <- t         : 
+  t a uu i <- t         : 
+  t o ii i <- t         : 
+  t sp a b <- t         : 
+ t sp ik b <- t         : 
+t:h aa sp i <- t:h       : [mx   378(0) +=   174] [mg   378(0) <-   174] [mx   379(1) +=   175] [mg   379(1) <-   175] [mx   380(2) +=   176] [mg   380(2) <-   176] 
+th SIL a b <- th        : [mx   381(0) +=   177] [mg   381(0) <-   177] [mx   382(1) +=   178] [mg   382(1) <-   178] [mx   383(2) +=   179] [mg   383(2) <-   179] 
+th SIL ii b <- th        : 
+  th a a i <- th        : 
+ th a aa i <- th        : 
+th aa sp i <- th        : 
+ th sp a b <- th        : 
+th sp ii b <- th        : 
+th uth ap i <- th        : 
+ ti et n i <- ti        : [mx   384(0) +=   180] [mg   384(0) <-   180] [mx   385(1) +=   181] [mg   385(1) <-   181] [mx   386(2) +=   182] [mg   386(2) <-   182] 
+ u SIL p b <- u         : [mx   387(0) +=   183] [mg   387(0) <-   183] [mx   388(1) +=   184] [mg   388(1) <-   184] [mx   389(2) +=   185] [mg   389(2) <-   185] 
+ u m r:g i <- u         : 
+   u p d i <- u         : 
+   u p l i <- u         : 
+  u sp p b <- u         : 
+  ul k a i <- ul        : [mx   390(0) +=   186] [mg   390(0) <-   186] [mx   391(1) +=   187] [mg   391(1) <-   187] [mx   392(2) +=   188] [mg   392(2) <-   188] 
+ ul k ph i <- ul        : 
+uth SIL th b <- uth       : [mx   393(0) +=   189] [mg   393(0) <-   189] [mx   394(1) +=   190] [mg   394(1) <-   190] [mx   395(2) +=   191] [mg   395(2) <-   191] 
+uth sp th b <- uth       : 
+  uu g l i <- uu        : [mx   396(0) +=   192] [mg   396(0) <-   192] [mx   397(1) +=   193] [mg   397(1) <-   193] [mx   398(2) +=   194] [mg   398(2) <-   194] 
+ uu j sp i <- uu        : 
+ uu l sp i <- uu        : 
+  uu m n i <- uu        : 
+uu nch r i <- uu        : 
+  uu p r i <- uu        : 
+  uu t r i <- uu        : 
+ v SIL a b <- v         : [mx   399(0) +=   195] [mg   399(0) <-   195] [mx   400(1) +=   196] [mg   400(1) <-   196] [mx   401(2) +=   197] [mg   401(2) <-   197] 
+ v SIL e b <- v         : 
+   v a a i <- v         : 
+  v a aa i <- v         : 
+  v a ii i <- v         : 
+  v sp a b <- v         : 
+  v sp e b <- v         : 
+w SIL in: b <- w         : [mx   402(0) +=   198] [mg   402(0) <-   198] [mx   403(1) +=   199] [mg   403(1) <-   199] [mx   404(2) +=   200] [mg   404(2) <-   200] 
+  w a aa i <- w         : 
+ w aa sp i <- w         : 
+w sp in: b <- w         : 
+  y a aa i <- y         : [mx   405(0) +=   201] [mg   405(0) <-   201] [mx   406(1) +=   202] [mg   406(1) <-   202] [mx   407(2) +=   203] [mg   407(2) <-   203] 
+  y aa a i <- y         : 
+   y i a i <- y         : 
+  y ii a i <- y         : 
+ z aa sp i <- z         : [mx   408(0) +=   204] [mg   408(0) <-   204] [mx   409(1) +=   205] [mg   409(1) <-   205] [mx   410(2) +=   206] [mg   410(2) <-   206] 
+z r:e ii i <- z         : INFO: main.c(530): Writing dest /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/transition_matrices
+INFO: s3tmat_io.c(176): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/transition_matrices [69x3x4 array]
+INFO: main.c(541): Writing dest /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/mixture_weights
+INFO: s3mixw_io.c(233): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/mixture_weights [411x1x1 array]
+INFO: main.c(550): Writing dest /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/means
+INFO: s3gau_io.c(228): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/means [411x1x1 array]
+INFO: main.c(562): Writing dest /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/variances
+INFO: s3gau_io.c(228): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_initial/variances [411x1x1 array]
+
+Mon Nov  3 11:36:39 2014

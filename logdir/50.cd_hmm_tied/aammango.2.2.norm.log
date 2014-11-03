@@ -1,0 +1,43 @@
+INFO: cmd_ln.c(696): Parsing command line:
+/usr/local/libexec/sphinxtrain/norm \
+	-accumdir /home/sumu/aammango/bwaccumdir/aammango_buff_1 \
+	-mixwfn /home/sumu/aammango/model_parameters/aammango.cd_cont_200/mixture_weights \
+	-tmatfn /home/sumu/aammango/model_parameters/aammango.cd_cont_200/transition_matrices \
+	-meanfn /home/sumu/aammango/model_parameters/aammango.cd_cont_200/means \
+	-varfn /home/sumu/aammango/model_parameters/aammango.cd_cont_200/variances \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/sumu/aammango/bwaccumdir/aammango_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/sumu/aammango/model_parameters/aammango.cd_cont_200/means
+-mixwfn			/home/sumu/aammango/model_parameters/aammango.cd_cont_200/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/sumu/aammango/model_parameters/aammango.cd_cont_200/transition_matrices
+-varfn			/home/sumu/aammango/model_parameters/aammango.cd_cont_200/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/sumu/aammango/bwaccumdir/aammango_buff_1
+INFO: s3mixw_io.c(117): Read /home/sumu/aammango/bwaccumdir/aammango_buff_1/mixw_counts [411x1x2 array]
+INFO: s3tmat_io.c(118): Read /home/sumu/aammango/bwaccumdir/aammango_buff_1/tmat_counts [69x3x4 array]
+INFO: s3gau_io.c(386): Read /home/sumu/aammango/bwaccumdir/aammango_buff_1/gauden_counts with means with vars (2pass) [411x1x2 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 411, n_stream= 1, n_density= 2
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_200/mixture_weights [411x1x2 array]
+INFO: s3tmat_io.c(176): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_200/transition_matrices [69x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_200/means [411x1x2 array]
+INFO: s3gau_io.c(228): Wrote /home/sumu/aammango/model_parameters/aammango.cd_cont_200/variances [411x1x2 array]
+Mon Nov  3 11:36:56 2014
+Current Overall Likelihood Per Frame = -148.605859167675
+Convergence ratio = 0.540585220697494

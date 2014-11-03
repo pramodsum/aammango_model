@@ -1,0 +1,559 @@
+INFO: cmd_ln.c(696): Parsing command line:
+/usr/local/libexec/sphinxtrain/prunetree \
+	-itreedir /home/sumu/aammango/trees/aammango.unpruned \
+	-nseno 200 \
+	-otreedir /home/sumu/aammango/trees/aammango.200 \
+	-moddeffn /home/sumu/aammango/model_architecture/aammango.alltriphones.mdef \
+	-psetfn /home/sumu/aammango/model_architecture/aammango.tree_questions \
+	-minocc 0 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-itreedir		/home/sumu/aammango/trees/aammango.unpruned
+-minocc		0.0	0.000000e+00
+-moddeffn		/home/sumu/aammango/model_architecture/aammango.alltriphones.mdef
+-nseno			200
+-otreedir		/home/sumu/aammango/trees/aammango.200
+-psetfn			/home/sumu/aammango/model_architecture/aammango.tree_questions
+
+INFO: main.c(76): Reading: /home/sumu/aammango/model_architecture/aammango.alltriphones.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 1225 total models defined (69 base, 1156 tri)
+INFO: model_def_io.c(575): 4900 total states
+INFO: model_def_io.c(576): 3675 total tied states
+INFO: model_def_io.c(577): 207 total tied CI states
+INFO: model_def_io.c(578): 69 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(82): Reading: /home/sumu/aammango/model_architecture/aammango.tree_questions
+INFO: main.c(185): I-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): I-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): I-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): a-0	34 [0 < 0.000000e+00]
+INFO: main.c(185): a-1	34 [0 < 0.000000e+00]
+INFO: main.c(185): a-2	34 [0 < 0.000000e+00]
+INFO: main.c(185): aa-0	33 [0 < 0.000000e+00]
+INFO: main.c(185): aa-1	33 [0 < 0.000000e+00]
+INFO: main.c(185): aa-2	33 [0 < 0.000000e+00]
+INFO: main.c(185): aaa-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): aaa-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): aaa-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): aam-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): aam-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): aam-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ach-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ach-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ach-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ae-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): ae-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): ae-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): ap-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ap-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ap-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): as-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): as-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): as-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): au-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): au-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): au-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): b-0	10 [0 < 0.000000e+00]
+INFO: main.c(185): b-1	10 [0 < 0.000000e+00]
+INFO: main.c(185): b-2	10 [0 < 0.000000e+00]
+INFO: main.c(185): b:h-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): b:h-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): b:h-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): c:h-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): c:h-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): c:h-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ch-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): ch-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): ch-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): ch:-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ch:-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ch:-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): d-0	6 [0 < 0.000000e+00]
+INFO: main.c(185): d-1	6 [0 < 0.000000e+00]
+INFO: main.c(185): d-2	6 [0 < 0.000000e+00]
+INFO: main.c(185): d.-0	4 [0 < 0.000000e+00]
+INFO: main.c(185): d.-1	4 [0 < 0.000000e+00]
+INFO: main.c(185): d.-2	4 [0 < 0.000000e+00]
+INFO: main.c(185): e-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): e-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): e-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): et-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): et-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): et-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): g-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): g-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): g-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): h-0	4 [0 < 0.000000e+00]
+INFO: main.c(185): h-1	4 [0 < 0.000000e+00]
+INFO: main.c(185): h-2	4 [0 < 0.000000e+00]
+INFO: main.c(185): i-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): i-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): i-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): ii-0	16 [0 < 0.000000e+00]
+INFO: main.c(185): ii-1	16 [0 < 0.000000e+00]
+INFO: main.c(185): ii-2	16 [0 < 0.000000e+00]
+INFO: main.c(185): ik-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ik-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ik-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): in:-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): in:-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): in:-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): j-0	4 [0 < 0.000000e+00]
+INFO: main.c(185): j-1	4 [0 < 0.000000e+00]
+INFO: main.c(185): j-2	4 [0 < 0.000000e+00]
+INFO: main.c(185): k-0	11 [0 < 0.000000e+00]
+INFO: main.c(185): k-1	11 [0 < 0.000000e+00]
+INFO: main.c(185): k-2	11 [0 < 0.000000e+00]
+INFO: main.c(185): k:h-0	3 [0 < 0.000000e+00]
+INFO: main.c(185): k:h-1	3 [0 < 0.000000e+00]
+INFO: main.c(185): k:h-2	3 [0 < 0.000000e+00]
+INFO: main.c(185): l-0	14 [0 < 0.000000e+00]
+INFO: main.c(185): l-1	14 [0 < 0.000000e+00]
+INFO: main.c(185): l-2	14 [0 < 0.000000e+00]
+INFO: main.c(185): m-0	7 [0 < 0.000000e+00]
+INFO: main.c(185): m-1	7 [0 < 0.000000e+00]
+INFO: main.c(185): m-2	7 [0 < 0.000000e+00]
+INFO: main.c(185): m:b-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): m:b-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): m:b-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): n-0	12 [0 < 0.000000e+00]
+INFO: main.c(185): n-1	12 [0 < 0.000000e+00]
+INFO: main.c(185): n-2	12 [0 < 0.000000e+00]
+INFO: main.c(185): n:ch-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:ch-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:ch-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:d-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): n:d-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): n:d-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): n:d.-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:d.-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:d.-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:g-0	4 [0 < 0.000000e+00]
+INFO: main.c(185): n:g-1	4 [0 < 0.000000e+00]
+INFO: main.c(185): n:g-2	4 [0 < 0.000000e+00]
+INFO: main.c(185): n:p-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:p-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): n:p-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): nch-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nch-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nch-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): nd-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nd-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nd-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): nd.-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nd.-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nd.-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): nt:h-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nt:h-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nt:h-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): o-0	11 [0 < 0.000000e+00]
+INFO: main.c(185): o-1	11 [0 < 0.000000e+00]
+INFO: main.c(185): o-2	11 [0 < 0.000000e+00]
+INFO: main.c(185): oo-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): oo-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): oo-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): p-0	6 [0 < 0.000000e+00]
+INFO: main.c(185): p-1	6 [0 < 0.000000e+00]
+INFO: main.c(185): p-2	6 [0 < 0.000000e+00]
+INFO: main.c(185): ph-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): ph-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): ph-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): phth-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): phth-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): phth-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): py-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): py-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): py-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): r-0	14 [0 < 0.000000e+00]
+INFO: main.c(185): r-1	14 [0 < 0.000000e+00]
+INFO: main.c(185): r-2	14 [0 < 0.000000e+00]
+INFO: main.c(185): r.-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): r.-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): r.-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): r:e-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): r:e-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): r:e-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): r:g-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): r:g-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): r:g-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): rm-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): rm-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): rm-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): s-0	8 [0 < 0.000000e+00]
+INFO: main.c(185): s-1	8 [0 < 0.000000e+00]
+INFO: main.c(185): s-2	8 [0 < 0.000000e+00]
+INFO: main.c(185): sh-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): sh-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): sh-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): shth-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): shth-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): shth-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): sp-0	19 [0 < 0.000000e+00]
+INFO: main.c(185): sp-1	19 [0 < 0.000000e+00]
+INFO: main.c(185): sp-2	19 [0 < 0.000000e+00]
+INFO: main.c(185): t-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): t-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): t-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): t:h-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): t:h-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): t:h-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): th-0	6 [0 < 0.000000e+00]
+INFO: main.c(185): th-1	6 [0 < 0.000000e+00]
+INFO: main.c(185): th-2	6 [0 < 0.000000e+00]
+INFO: main.c(185): ti-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ti-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ti-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): u-0	4 [0 < 0.000000e+00]
+INFO: main.c(185): u-1	4 [0 < 0.000000e+00]
+INFO: main.c(185): u-2	4 [0 < 0.000000e+00]
+INFO: main.c(185): ul-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): ul-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): ul-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): uth-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): uth-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): uth-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): uu-0	7 [0 < 0.000000e+00]
+INFO: main.c(185): uu-1	7 [0 < 0.000000e+00]
+INFO: main.c(185): uu-2	7 [0 < 0.000000e+00]
+INFO: main.c(185): v-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): v-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): v-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): w-0	3 [0 < 0.000000e+00]
+INFO: main.c(185): w-1	3 [0 < 0.000000e+00]
+INFO: main.c(185): w-2	3 [0 < 0.000000e+00]
+INFO: main.c(185): y-0	4 [0 < 0.000000e+00]
+INFO: main.c(185): y-1	4 [0 < 0.000000e+00]
+INFO: main.c(185): y-2	4 [0 < 0.000000e+00]
+INFO: main.c(185): z-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): z-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): z-2	2 [0 < 0.000000e+00]
+INFO: main.c(270): Prior to pruning n_seno= 969
+INFO: main.c(278): n_twig= 315
+INFO: main.c(308): Pruning 769 nodes
+INFO: main.c(341): Root node extracted (oo 2) from heap
+INFO: main.c(341): Root node extracted (n:d 2) from heap
+INFO: main.c(341): Root node extracted (ul 2) from heap
+INFO: main.c(341): Root node extracted (ch 0) from heap
+INFO: main.c(341): Root node extracted (oo 0) from heap
+INFO: main.c(341): Root node extracted (oo 1) from heap
+INFO: main.c(341): Root node extracted (z 2) from heap
+INFO: main.c(341): Root node extracted (ae 1) from heap
+INFO: main.c(341): Root node extracted (ph 0) from heap
+INFO: main.c(341): Root node extracted (z 1) from heap
+INFO: main.c(341): Root node extracted (r. 1) from heap
+INFO: main.c(341): Root node extracted (b:h 0) from heap
+INFO: main.c(341): Root node extracted (ph 2) from heap
+INFO: main.c(341): Root node extracted (j 0) from heap
+INFO: main.c(341): Root node extracted (d. 0) from heap
+INFO: main.c(341): Root node extracted (r. 0) from heap
+INFO: main.c(341): Root node extracted (v 1) from heap
+INFO: main.c(341): Root node extracted (ph 1) from heap
+INFO: main.c(341): Root node extracted (i 0) from heap
+INFO: main.c(341): Root node extracted (n:d 1) from heap
+INFO: main.c(341): Root node extracted (ul 0) from heap
+INFO: main.c(341): Root node extracted (d. 2) from heap
+INFO: main.c(341): Root node extracted (h 2) from heap
+INFO: main.c(341): Root node extracted (n:g 0) from heap
+INFO: main.c(341): Root node extracted (d. 1) from heap
+INFO: main.c(341): Root node extracted (v 0) from heap
+INFO: main.c(341): Root node extracted (w 2) from heap
+INFO: main.c(341): Root node extracted (n:d 0) from heap
+INFO: main.c(341): Root node extracted (ae 2) from heap
+INFO: main.c(341): Root node extracted (d 0) from heap
+INFO: main.c(341): Root node extracted (j 2) from heap
+INFO: main.c(341): Root node extracted (u 2) from heap
+INFO: main.c(341): Root node extracted (ae 0) from heap
+INFO: main.c(341): Root node extracted (v 2) from heap
+INFO: main.c(341): Root node extracted (y 2) from heap
+INFO: main.c(341): Root node extracted (u 0) from heap
+INFO: main.c(341): Root node extracted (ul 1) from heap
+INFO: main.c(341): Root node extracted (e 2) from heap
+INFO: main.c(341): Root node extracted (p 1) from heap
+INFO: main.c(341): Root node extracted (i 1) from heap
+INFO: main.c(341): Root node extracted (b:h 2) from heap
+INFO: main.c(341): Root node extracted (ch 1) from heap
+INFO: main.c(341): Root node extracted (e 1) from heap
+INFO: main.c(341): Root node extracted (w 1) from heap
+INFO: main.c(341): Root node extracted (p 0) from heap
+INFO: main.c(341): Root node extracted (n:g 1) from heap
+INFO: main.c(341): Root node extracted (b 0) from heap
+INFO: main.c(341): Root node extracted (y 1) from heap
+INFO: main.c(341): Root node extracted (g 0) from heap
+INFO: main.c(341): Root node extracted (z 0) from heap
+INFO: main.c(341): Root node extracted (e 0) from heap
+INFO: main.c(341): Root node extracted (w 0) from heap
+INFO: main.c(341): Root node extracted (y 0) from heap
+INFO: main.c(341): Root node extracted (k:h 1) from heap
+INFO: main.c(341): Root node extracted (n:g 2) from heap
+INFO: main.c(341): Root node extracted (h 1) from heap
+INFO: main.c(341): Root node extracted (b:h 1) from heap
+INFO: main.c(341): Root node extracted (t 0) from heap
+INFO: main.c(341): Root node extracted (r. 2) from heap
+INFO: main.c(341): Root node extracted (k:h 0) from heap
+INFO: main.c(341): Root node extracted (j 1) from heap
+INFO: main.c(341): Root node extracted (uu 0) from heap
+INFO: main.c(341): Root node extracted (b 1) from heap
+INFO: main.c(341): Root node extracted (u 1) from heap
+INFO: main.c(341): Root node extracted (p 2) from heap
+INFO: main.c(341): Root node extracted (g 2) from heap
+INFO: main.c(341): Root node extracted (th 0) from heap
+INFO: main.c(341): Root node extracted (l 1) from heap
+INFO: main.c(341): Root node extracted (d 2) from heap
+INFO: main.c(341): Root node extracted (uu 1) from heap
+INFO: main.c(341): Root node extracted (h 0) from heap
+INFO: main.c(341): Root node extracted (t 2) from heap
+INFO: main.c(341): Root node extracted (l 0) from heap
+INFO: main.c(341): Root node extracted (i 2) from heap
+INFO: main.c(341): Root node extracted (s 2) from heap
+INFO: main.c(341): Root node extracted (th 1) from heap
+INFO: main.c(341): Root node extracted (k 0) from heap
+INFO: main.c(341): Root node extracted (s 1) from heap
+INFO: main.c(341): Root node extracted (a 1) from heap
+INFO: main.c(341): Root node extracted (d 1) from heap
+INFO: main.c(341): Root node extracted (o 2) from heap
+INFO: main.c(341): Root node extracted (g 1) from heap
+INFO: main.c(341): Root node extracted (b 2) from heap
+INFO: main.c(341): Root node extracted (m 0) from heap
+INFO: main.c(341): Root node extracted (a 0) from heap
+INFO: main.c(341): Root node extracted (m 1) from heap
+INFO: main.c(341): Root node extracted (sp 0) from heap
+INFO: main.c(341): Root node extracted (k 2) from heap
+INFO: main.c(341): Root node extracted (l 2) from heap
+INFO: main.c(341): Root node extracted (th 2) from heap
+INFO: main.c(341): Root node extracted (t 1) from heap
+INFO: main.c(341): Root node extracted (k:h 2) from heap
+INFO: main.c(341): Root node extracted (o 1) from heap
+INFO: main.c(341): Root node extracted (sp 1) from heap
+INFO: main.c(341): Root node extracted (r 0) from heap
+INFO: main.c(341): Root node extracted (ii 0) from heap
+INFO: main.c(341): Root node extracted (m 2) from heap
+INFO: main.c(341): Root node extracted (o 0) from heap
+INFO: main.c(341): Root node extracted (ii 1) from heap
+INFO: main.c(341): Root node extracted (uu 2) from heap
+INFO: main.c(341): Root node extracted (s 0) from heap
+INFO: main.c(341): Root node extracted (r 2) from heap
+INFO: main.c(341): Root node extracted (k 1) from heap
+INFO: main.c(341): Root node extracted (ii 2) from heap
+INFO: main.c(341): Root node extracted (ch 2) from heap
+INFO: main.c(341): Root node extracted (a 2) from heap
+INFO: main.c(341): Root node extracted (n 0) from heap
+INFO: main.c(341): Root node extracted (r 1) from heap
+INFO: main.c(341): Root node extracted (n 2) from heap
+INFO: main.c(341): Root node extracted (n 1) from heap
+INFO: main.c(341): Root node extracted (aa 0) from heap
+INFO: main.c(341): Root node extracted (sp 2) from heap
+INFO: main.c(341): Root node extracted (aa 1) from heap
+INFO: main.c(341): Root node extracted (aa 2) from heap
+WARN: "main.c", line 365: 200 seno's not generated because heap ran out
+INFO: main.c(386): I-0	1
+INFO: main.c(386): I-1	1
+INFO: main.c(386): I-2	1
+INFO: main.c(386): a-0	1
+INFO: main.c(386): a-1	1
+INFO: main.c(386): a-2	1
+INFO: main.c(386): aa-0	1
+INFO: main.c(386): aa-1	1
+INFO: main.c(386): aa-2	1
+INFO: main.c(386): aaa-0	1
+INFO: main.c(386): aaa-1	1
+INFO: main.c(386): aaa-2	1
+INFO: main.c(386): aam-0	1
+INFO: main.c(386): aam-1	1
+INFO: main.c(386): aam-2	1
+INFO: main.c(386): ach-0	1
+INFO: main.c(386): ach-1	1
+INFO: main.c(386): ach-2	1
+INFO: main.c(386): ae-0	1
+INFO: main.c(386): ae-1	1
+INFO: main.c(386): ae-2	1
+INFO: main.c(386): ap-0	1
+INFO: main.c(386): ap-1	1
+INFO: main.c(386): ap-2	1
+INFO: main.c(386): as-0	1
+INFO: main.c(386): as-1	1
+INFO: main.c(386): as-2	1
+INFO: main.c(386): au-0	1
+INFO: main.c(386): au-1	1
+INFO: main.c(386): au-2	1
+INFO: main.c(386): b-0	1
+INFO: main.c(386): b-1	1
+INFO: main.c(386): b-2	1
+INFO: main.c(386): b:h-0	1
+INFO: main.c(386): b:h-1	1
+INFO: main.c(386): b:h-2	1
+INFO: main.c(386): c:h-0	1
+INFO: main.c(386): c:h-1	1
+INFO: main.c(386): c:h-2	1
+INFO: main.c(386): ch-0	1
+INFO: main.c(386): ch-1	1
+INFO: main.c(386): ch-2	1
+INFO: main.c(386): ch:-0	1
+INFO: main.c(386): ch:-1	1
+INFO: main.c(386): ch:-2	1
+INFO: main.c(386): d-0	1
+INFO: main.c(386): d-1	1
+INFO: main.c(386): d-2	1
+INFO: main.c(386): d.-0	1
+INFO: main.c(386): d.-1	1
+INFO: main.c(386): d.-2	1
+INFO: main.c(386): e-0	1
+INFO: main.c(386): e-1	1
+INFO: main.c(386): e-2	1
+INFO: main.c(386): et-0	1
+INFO: main.c(386): et-1	1
+INFO: main.c(386): et-2	1
+INFO: main.c(386): g-0	1
+INFO: main.c(386): g-1	1
+INFO: main.c(386): g-2	1
+INFO: main.c(386): h-0	1
+INFO: main.c(386): h-1	1
+INFO: main.c(386): h-2	1
+INFO: main.c(386): i-0	1
+INFO: main.c(386): i-1	1
+INFO: main.c(386): i-2	1
+INFO: main.c(386): ii-0	1
+INFO: main.c(386): ii-1	1
+INFO: main.c(386): ii-2	1
+INFO: main.c(386): ik-0	1
+INFO: main.c(386): ik-1	1
+INFO: main.c(386): ik-2	1
+INFO: main.c(386): in:-0	1
+INFO: main.c(386): in:-1	1
+INFO: main.c(386): in:-2	1
+INFO: main.c(386): j-0	1
+INFO: main.c(386): j-1	1
+INFO: main.c(386): j-2	1
+INFO: main.c(386): k-0	1
+INFO: main.c(386): k-1	1
+INFO: main.c(386): k-2	1
+INFO: main.c(386): k:h-0	1
+INFO: main.c(386): k:h-1	1
+INFO: main.c(386): k:h-2	1
+INFO: main.c(386): l-0	1
+INFO: main.c(386): l-1	1
+INFO: main.c(386): l-2	1
+INFO: main.c(386): m-0	1
+INFO: main.c(386): m-1	1
+INFO: main.c(386): m-2	1
+INFO: main.c(386): m:b-0	1
+INFO: main.c(386): m:b-1	1
+INFO: main.c(386): m:b-2	1
+INFO: main.c(386): n-0	1
+INFO: main.c(386): n-1	1
+INFO: main.c(386): n-2	1
+INFO: main.c(386): n:ch-0	1
+INFO: main.c(386): n:ch-1	1
+INFO: main.c(386): n:ch-2	1
+INFO: main.c(386): n:d-0	1
+INFO: main.c(386): n:d-1	1
+INFO: main.c(386): n:d-2	1
+INFO: main.c(386): n:d.-0	1
+INFO: main.c(386): n:d.-1	1
+INFO: main.c(386): n:d.-2	1
+INFO: main.c(386): n:g-0	1
+INFO: main.c(386): n:g-1	1
+INFO: main.c(386): n:g-2	1
+INFO: main.c(386): n:p-0	1
+INFO: main.c(386): n:p-1	1
+INFO: main.c(386): n:p-2	1
+INFO: main.c(386): nch-0	1
+INFO: main.c(386): nch-1	1
+INFO: main.c(386): nch-2	1
+INFO: main.c(386): nd-0	1
+INFO: main.c(386): nd-1	1
+INFO: main.c(386): nd-2	1
+INFO: main.c(386): nd.-0	1
+INFO: main.c(386): nd.-1	1
+INFO: main.c(386): nd.-2	1
+INFO: main.c(386): nt:h-0	1
+INFO: main.c(386): nt:h-1	1
+INFO: main.c(386): nt:h-2	1
+INFO: main.c(386): o-0	1
+INFO: main.c(386): o-1	1
+INFO: main.c(386): o-2	1
+INFO: main.c(386): oo-0	1
+INFO: main.c(386): oo-1	1
+INFO: main.c(386): oo-2	1
+INFO: main.c(386): p-0	1
+INFO: main.c(386): p-1	1
+INFO: main.c(386): p-2	1
+INFO: main.c(386): ph-0	1
+INFO: main.c(386): ph-1	1
+INFO: main.c(386): ph-2	1
+INFO: main.c(386): phth-0	1
+INFO: main.c(386): phth-1	1
+INFO: main.c(386): phth-2	1
+INFO: main.c(386): py-0	1
+INFO: main.c(386): py-1	1
+INFO: main.c(386): py-2	1
+INFO: main.c(386): r-0	1
+INFO: main.c(386): r-1	1
+INFO: main.c(386): r-2	1
+INFO: main.c(386): r.-0	1
+INFO: main.c(386): r.-1	1
+INFO: main.c(386): r.-2	1
+INFO: main.c(386): r:e-0	1
+INFO: main.c(386): r:e-1	1
+INFO: main.c(386): r:e-2	1
+INFO: main.c(386): r:g-0	1
+INFO: main.c(386): r:g-1	1
+INFO: main.c(386): r:g-2	1
+INFO: main.c(386): rm-0	1
+INFO: main.c(386): rm-1	1
+INFO: main.c(386): rm-2	1
+INFO: main.c(386): s-0	1
+INFO: main.c(386): s-1	1
+INFO: main.c(386): s-2	1
+INFO: main.c(386): sh-0	1
+INFO: main.c(386): sh-1	1
+INFO: main.c(386): sh-2	1
+INFO: main.c(386): shth-0	1
+INFO: main.c(386): shth-1	1
+INFO: main.c(386): shth-2	1
+INFO: main.c(386): sp-0	1
+INFO: main.c(386): sp-1	1
+INFO: main.c(386): sp-2	1
+INFO: main.c(386): t-0	1
+INFO: main.c(386): t-1	1
+INFO: main.c(386): t-2	1
+INFO: main.c(386): t:h-0	1
+INFO: main.c(386): t:h-1	1
+INFO: main.c(386): t:h-2	1
+INFO: main.c(386): th-0	1
+INFO: main.c(386): th-1	1
+INFO: main.c(386): th-2	1
+INFO: main.c(386): ti-0	1
+INFO: main.c(386): ti-1	1
+INFO: main.c(386): ti-2	1
+INFO: main.c(386): u-0	1
+INFO: main.c(386): u-1	1
+INFO: main.c(386): u-2	1
+INFO: main.c(386): ul-0	1
+INFO: main.c(386): ul-1	1
+INFO: main.c(386): ul-2	1
+INFO: main.c(386): uth-0	1
+INFO: main.c(386): uth-1	1
+INFO: main.c(386): uth-2	1
+INFO: main.c(386): uu-0	1
+INFO: main.c(386): uu-1	1
+INFO: main.c(386): uu-2	1
+INFO: main.c(386): v-0	1
+INFO: main.c(386): v-1	1
+INFO: main.c(386): v-2	1
+INFO: main.c(386): w-0	1
+INFO: main.c(386): w-1	1
+INFO: main.c(386): w-2	1
+INFO: main.c(386): y-0	1
+INFO: main.c(386): y-1	1
+INFO: main.c(386): y-2	1
+INFO: main.c(386): z-0	1
+INFO: main.c(386): z-1	1
+INFO: main.c(386): z-2	1
+!!!!!!!!Allocated 67 lines
+Mon Nov  3 11:36:39 2014
